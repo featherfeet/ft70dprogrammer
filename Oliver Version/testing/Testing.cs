@@ -11,17 +11,10 @@ public class Testing {
         serialPort.Handshake = Handshake.None;
         serialPort.Open();
         byte[] numArray = new byte[10];
-        int i = 0;
-        Int32 byte_read = -1;
-        while (i < 10) {
-            try {
-                byte_read = serialPort.ReadByte();
-            }
-            catch (System.IO.IOException e) {
-            }
-            if (byte_read != -1) {
-                numArray[i] = (byte) byte_read;
-                i++;
+        while (true) {
+            if (this.mySerial.BytesToRead >= numArray.Length)
+            {
+              this.mySerial.Read(numArray, 0, numArray.Length);
             }
         }
         serialPort.Close();

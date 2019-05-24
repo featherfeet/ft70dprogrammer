@@ -1,4 +1,4 @@
-// Decompiled with JetBrains decompiler
+﻿// Decompiled with JetBrains decompiler
 // Type: ADMS10.SerialProtocol
 // Assembly: ADMS10, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null
 // MVID: 916BD5CA-6D06-4E46-9F0F-EBE01FA730C5
@@ -40,29 +40,30 @@ public class SerialProtocol
   private SerialPort mySerial;
   private Database db;
   private System.Timers.Timer myTimer;
-  private IContainer components;
 
   public SerialProtocol()
   {
   }
 
-  public SerialProtocol(SerialPort serialport, Database database, bool isSend)
+  public SerialProtocol(SerialPort serialport, Database db, bool isSend)
   {
     this.mySerial = serialport;
     this.IsSend = isSend;
-    this.db = database;
+    this.db = db;
     this.db.Buffer.CopyTo((Array) this.DataArray, 0);
     this.IsComp = false;
     this.tmpCpuType = Settings.Instance.CpuType;
     this.tmpCountryType = Settings.Instance.CountryType;
     this.tmpExpType = Settings.Instance.ExpType;
-    this.TIMEOUTERRMESSAGE = "Timeout error.";
-    this.CHECKSUMERRMESSAGE = "Checksum error.";
-    this.FORMATERRMESSAGE = "Format error.";
-    this.COMPLETEDMESSAGE = "Completed.";
-    this.SENDMESSAGE = "Sending.";
-    this.RECVMESSAGE = "Receiving.";
-    this.CPUTYPERRMESSAGE = "CPU Type Error.";
+    this.TIMEOUTERRMESSAGE = "TIMEOUTERROR";
+    this.CHECKSUMERRMESSAGE = "CHECKSUMERROR";
+    this.FORMATERRMESSAGE = "FORMATERROR";
+    this.COMPLETEDMESSAGE = "COMPLETED";
+    this.SENDMESSAGE = "SENDING";
+    this.RECVMESSAGE = "RECEIVING";
+    this.CPUTYPERRMESSAGE = "CPUTYPEERROR";
+    this.myTimer = new System.Timers.Timer();
+    this.myTimer.Elapsed += new ElapsedEventHandler(this.OnTimerEvent);
   }
 
   public void PortOpen()
@@ -78,7 +79,7 @@ public class SerialProtocol
     }
     catch
     {
-      throw new IOException("COM Port open error.");
+      throw new IOException("COMPORTOPENERROR");
     }
   }
 
@@ -91,43 +92,6 @@ public class SerialProtocol
     catch
     {
     }
-  }
-
-  private byte calcCheckSum(byte[] buf, int len)
-  {
-    byte num = 0;
-    for (int index = 0; index < len; ++index)
-      num += buf[index];
-    return num;
-  }
-
-  private bool IsChk10Byte(byte[] buf)
-  {
-    bool flag = true;
-    if ((byte) 65 != buf[0] || (byte) 72 != buf[1] || ((byte) 53 != buf[2] || (byte) 49 != buf[3]) || (byte) 71 != buf[4])
-    {
-      this.errorMessage = this.FORMATERRMESSAGE;
-      throw new Exception();
-    }
-    if (buf[5] > (byte) 2)
-      flag = false;
-    else if (buf[5] == (byte) 0)
-    {
-      if (buf[7] != (byte) 1)
-        flag = false;
-    }
-    else if (buf[5] == (byte) 1)
-    {
-      if (buf[7] != (byte) 0)
-        flag = false;
-    }
-    else if (buf[7] > (byte) 7)
-      flag = false;
-    if (flag && (buf[8] > (byte) 1 || buf[9] > (byte) 1))
-      flag = false;
-    if (flag && Settings.Instance.Language == 0 && ((int) buf[5] != Settings.Instance.CpuType && (int) buf[7] != Settings.Instance.CountryType))
-      flag = false;
-    return flag;
   }
 
   public void Run()
@@ -160,8 +124,9 @@ public class SerialProtocol
           numArray[9] = Settings.Instance.ExpType != 1 ? (byte) 1 : (byte) 0;
         }
         this.mySerial.Write(numArray, 0, numArray.Length);
+        this.startToTimer(5000.0);
         byte[] buffer1 = new byte[1];
-        while (true)
+        while (!this.IsTimeout)
         {
           if (this.mySerial.BytesToRead >= buffer1.Length)
           {
@@ -174,6 +139,12 @@ public class SerialProtocol
             break;
           }
         }
+        if (this.IsTimeout)
+        {
+          this.errorMessage = this.TIMEOUTERRMESSAGE;
+          throw new Exception();
+        }
+        this.stopToTimer();
         Thread.Sleep(2000);
         for (int offset = 0; offset < 65216; offset += 64)
         {
@@ -193,67 +164,71 @@ public class SerialProtocol
       }
       else
       {
-        // Read 10 bytes from the radio that describe some settings.
+        this.startToTimer(7000.0);
         byte[] numArray = new byte[10];
-        int i = 0;
-        Int32 byte_read = -1;
-        while (i < 10) {
-            try {
-                byte_read = mySerial.ReadByte();
-            }
-            catch (System.IO.IOException e) {
-                Console.WriteLine("IOE");
-            }
-            if (byte_read != -1) {
-                numArray[i] = (byte) byte_read;
-                i++;
-            }
-        }
-        // Print out the 10 bytes.
-        for (int j = 0; j < 10; j++) {
-            Console.WriteLine(numArray[j]);
-        }
-        // Parse the 10 bytes from the radio into settings.
-        if (!this.IsChk10Byte(numArray))
+        while (!this.IsTimeout)
         {
-          this.errorMessage = this.CPUTYPERRMESSAGE;
+          if (this.mySerial.BytesToRead >= numArray.Length)
+          {
+            this.mySerial.Read(numArray, 0, numArray.Length);
+            if (!this.IsChk10Byte(numArray))
+            {
+              this.errorMessage = this.CPUTYPERRMESSAGE;
+              throw new Exception();
+            }
+            this.tmpCpuType = Settings.Instance.CpuType;
+            this.tmpCountryType = Settings.Instance.CountryType;
+            this.tmpExpType = Settings.Instance.ExpType;
+            if (Settings.Instance.Language != 0)
+            {
+              this.tmpCpuType = (int) numArray[5];
+              this.tmpCountryType = (int) numArray[7];
+              if (numArray[8] == (byte) 0)
+              {
+                this.tmpExpType = 0;
+                this.tmpExpSW = (int) numArray[9];
+                break;
+              }
+              this.tmpExpType = numArray[9] != (byte) 0 ? 2 : 1;
+              break;
+            }
+            break;
+          }
+        }
+        if (this.IsTimeout)
+        {
+          this.errorMessage = this.TIMEOUTERRMESSAGE;
           throw new Exception();
         }
-        this.tmpCpuType = Settings.Instance.CpuType;
-        this.tmpCountryType = Settings.Instance.CountryType;
-        this.tmpExpType = Settings.Instance.ExpType;
-        if (Settings.Instance.Language != 0)
-        {
-          this.tmpCpuType = (int) numArray[5];
-          this.tmpCountryType = (int) numArray[7];
-          if (numArray[8] == (byte) 0)
-          {
-            this.tmpExpType = 0;
-            this.tmpExpSW = (int) numArray[9];
-          }
-          else {
-            this.tmpExpType = numArray[9] != (byte) 0 ? 2 : 1;
-          }
-        }
-        // Read the actual radio memory data.
+        this.stopToTimer();
         byte[] buffer1 = new byte[1]{ (byte) 6 };
         this.mySerial.Write(buffer1, 0, buffer1.Length);
         Console.WriteLine(0);
         byte[] buffer2 = new byte[64];
+        this.startToTimer(5000.0);
         int index = 0;
-        while (index < 65216)
+        while (!this.IsTimeout && index < 65216)
         {
           if (this.mySerial.BytesToRead >= buffer2.Length)
           {
+            this.stopToTimer();
             this.mySerial.Read(buffer2, 0, buffer2.Length);
             buffer2.CopyTo((Array) this.DataArray, index);
             index += buffer2.Length;
             int percentProgress = index * 100 / 65216;
             Console.WriteLine(percentProgress);
+            this.startToTimer(1000.0);
           }
         }
+        if (this.IsTimeout)
+        {
+          this.errorMessage = this.TIMEOUTERRMESSAGE;
+          throw new Exception();
+        }
+        this.stopToTimer();
+        this.startToTimer(5000.0);
         byte[] buffer3 = new byte[1];
-        while (true)
+        while (!this.IsTimeout)
         {
           if (this.mySerial.BytesToRead >= buffer3.Length)
           {
@@ -261,6 +236,12 @@ public class SerialProtocol
             break;
           }
         }
+        if (this.IsTimeout)
+        {
+          this.errorMessage = this.TIMEOUTERRMESSAGE;
+          throw new Exception();
+        }
+        this.stopToTimer();
         byte num = (byte) ((int) this.calcCheckSum(this.DataArray, 65216) + (int) this.calcCheckSum(numArray, 10) & (int) byte.MaxValue);
         if ((int) buffer3[0] != (int) num)
         {
@@ -270,9 +251,72 @@ public class SerialProtocol
         this.DataArray.CopyTo((Array) this.db.Buffer, 0);
       }
     }
-    catch
+    catch (Exception e)
     {
-      Console.WriteLine(this.errorMessage);
+      Console.WriteLine(e.Message);
+      Console.WriteLine(1000);
     }
+    this.stopToTimer();
+  }
+
+  private byte calcCheckSum(byte[] buf, int len)
+  {
+    byte num = 0;
+    for (int index = 0; index < len; ++index)
+      num += buf[index];
+    return num;
+  }
+
+  private void OnTimerEvent(object source, ElapsedEventArgs e)
+  {
+    this.IsTimeout = true;
+  }
+
+  private void startToTimer(double time)
+  {
+    this.myTimer.Enabled = true;
+    this.myTimer.AutoReset = true;
+    this.myTimer.Interval = time;
+    this.IsTimeout = false;
+  }
+
+  private void stopToTimer()
+  {
+    this.myTimer.Enabled = false;
+    this.myTimer.AutoReset = false;
+    this.IsTimeout = false;
+  }
+
+  private bool IsChk10Byte(byte[] buf)
+  {
+    bool flag = true;
+    if ((byte) 65 != buf[0] || (byte) 72 != buf[1] || ((byte) 53 != buf[2] || (byte) 49 != buf[3]) || (byte) 71 != buf[4])
+    {
+      this.errorMessage = this.FORMATERRMESSAGE;
+      throw new Exception();
+    }
+    if (buf[5] > (byte) 2)
+      flag = false;
+    else if (buf[5] == (byte) 0)
+    {
+      if (buf[7] != (byte) 1)
+        flag = false;
+    }
+    else if (buf[5] == (byte) 1)
+    {
+      if (buf[7] != (byte) 0)
+        flag = false;
+    }
+    else if (buf[7] > (byte) 7)
+      flag = false;
+    if (flag && (buf[8] > (byte) 1 || buf[9] > (byte) 1))
+      flag = false;
+    if (flag && Settings.Instance.Language == 0 && ((int) buf[5] != Settings.Instance.CpuType && (int) buf[7] != Settings.Instance.CountryType))
+      flag = false;
+    return flag;
+  }
+
+  private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+  {
   }
 }
