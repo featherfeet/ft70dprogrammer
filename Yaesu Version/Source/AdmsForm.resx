@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="menu_Com.Text" xml:space="preserve">
+    <value>通信(&amp;C)</value>
+  </data>
+  <data name="&gt;&gt;menu_File.Name" xml:space="preserve">
+    <value>menu_File</value>
+  </data>
+  <data name="&gt;&gt;menu_File.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_ComWrite.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOkAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_ComWrite.Text" xml:space="preserve">
+    <value>FT-70Dへデータ送信(&amp;S)...</value>
+  </data>
+  <data name="toolStrip_EditCut.Text" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="toolStrip_EditCut.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowUD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowUD.Name" xml:space="preserve">
+    <value>menu_WindowUD</value>
+  </data>
+  <data name="&gt;&gt;menu_FilePrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FilePrint.Name" xml:space="preserve">
+    <value>menu_FilePrint</value>
+  </data>
+  <data name="menu_Edit.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD0AAAAWAAAACw==</value>
+  </data>
+  <data name="menu_Edit.Text" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="menu_EditChDown.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAARAACAAs=</value>
+  </data>
+  <data name="untitle1ToolStripMenuItem.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAL8AAAAWAAAACw==</value>
+  </data>
+  <data name="untitle1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;1 FT-70D Untitled1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;menu_FileNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FileNew.Name" xml:space="preserve">
+    <value>menu_FileNew</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serialPort1.Name" xml:space="preserve">
+    <value>serialPort1</value>
+  </data>
+  <data name="&gt;&gt;serialPort1.Type" xml:space="preserve">
+    <value>System.IO.Ports.SerialPort, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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/7WzsP+1s7D/tbOw/7WzsP+1s7D/tLOw/7SzsP+0s7D/tLOw/7SzsP+0s7D/tLOw/7SzsP+0sq//tLOv/7Szr/+0s6//tbSw/7e2sf+5uLL/vLu0/7+/t//Ew7v/ysnA/9DPxv/W1s3/3dzU/+Pj2//p6OH/7e3n//Hx7P/09PD/9vby//f38//09PD/6urm/+Dg2v+9vLj/V1dV/yIhIP8uLS3/WlhZ/11bXP9OTUz/TUtL/1VUVP9XVVb/WVdY/1lYWP9YVlf/V1ZW/15bW/9eXF7/UWBn/0Z4hv82fZH/LXSE/yt7jf8tkaf/K6O9/y9+lf9MT1P/S0hJ/zY2Of9zcXT/g4GE/4B+gf90c3T/bmxu/25sbv9ubW//bm1u/2xrbP9ta23/bWtt/2tqa/9sa2z/bWtt/21sbf9tbG3/b21v/29ub/9wbnD/d3V3/4OBhP+EgoT/hIKF/4aEhv+FhIb/hoSG/4eFh/+IhYj/iIaI/4mHif+Ihoj/hIKE/3l3ef9iYWH/REND/y8uLf8yMTD/NTUz/zMyMf8yMS//Ly4t/ywqKf8pKCf/NjU0/0FBQP9APz7/JyYm/xkaGtsZGRo1////BPv7+1nc3Nzux8fH/97e3v/DwsD/tLOw/7W0sf+1tLH/tbSx/7W0sf+1tLH/tLSx/7S0sf+1tLH/tbSx/7W0sf+1tLH/tbSw/7W0sP+1tLD/tbSw/7WzsP+1s7D/tbOw/7WzsP+1s7D/tbOw/7Wzr/+1sq//tLOv/7Wzr/+1s6//trSw/7e1sf+5uLL/vLq1/8C+uP/Ew7z/ysnB/9DQx//X1s7/3d3V/+Pj2//p6eL/7u7o//Hx7f/09PD/8O/s/+Li3//W1tP/0NDL/8HBvP9paWf/Jycm/y4tLP9aWFj/XVtb/05NTP9MS0v/VVNT/1ZVVf9ZWFj/WVhZ/1hXV/9hX1//Y2tx/0p/kv85jaj/MI2h/yeAk/8dWmb/GEhW/x9XZf8ym7L/N5Cr/1BVWf93c3X/UE9S/29ucf9+fH7/ZWRl/0lISP9JSEj/SUhI/0pJSP9JSEj/SUhH/0lIR/9JSEf/SEdG/0hHRv9JR0f/SEdG/0lHR/9KSEj/SUhI/0hHRv9NTEz/bWxt/4F/gf+Af4H/gX+C/4B+gf+AfoH/gX+C/4F/gv+AfoH/gX+B/4F/gv+DgYP/hIKF/4F/gv90cnT/V1ZW/zw7Ov81NDL/NDIx/zExL/8vLi3/LCop/ykoJ/82NTT/QUA//0A/Pv8mJST/MTEyyl1dXyr///8M8/Pzf9LS0vnOzs7+2trZ/7y7uP+1tLH/trSx/7a0sf+2tLH/trSx/7a0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sP+1tLD/tbOw/7W0sP+2tLD/trSw/7e2sf+5uLP/vLu1/8C/uP/FxLz/ysnB/9HQx//X187/3t3V/+Tk3P/q6eP/7e3o/+bm4v/Z2dX/09PQ/9LSzv/Q0Mv/y8vG/5CQjv8xMTD/LSwr/1lYWP9dW1v/Tk1N/01LS/9VVFT/V1VW/1lYWP9ZWFj/WVdX/2FkZ/9Yk6f/Pbrj/yR4lf8kbHf/IWFs/yFfZv8mbYD/Hltp/zKZrP89jaT/Sk9S/1JPT/9GRkb/Xlxd/2JgYf9KSUj/RURD/0lHRv9IRkX/SEZF/0hGRf9HRkT/R0ZF/0hGRf9HRkX/R0ZE/0dGRf9HRUT/RkVE/0dGRP9HRkT/RkVD/0RDQf9RUFD/ZGJj/2VkZP9mZWb/a2lr/25sbv9ubW7/b25v/3Nyc/90cnT/dXN1/3h2eP96eHr/hoSG/46Mjv+GhIb/WlhY/zY1M/8yMjD/MTAv/y8uLP8rKin/KSgn/zY1NP9BQD//QD8+/yQjI/8bGxuWPz9BE////xLp6emUxsbG8djY2P/R0dD/uLe0/7W0sf+2tbL/trWy/7a1sv+2tbL/trWy/7a1sv+2tbL/trWy/7a0sf+2tLH/trSx/7a0sf+2tLH/trSx/7a0sf+2tLH/trSx/7W0sf+1tLH/tbSx/7W0sf+1tLH/tbSx/7W0sf+1tLD/tbSw/7W0sP+1tLD/trWx/7e2sv+5uLP/vLu2/8C/uf/FxL3/y8rC/9HQyP/Y18//3t7W/+Pj3P/b29X/0dHM/9HRzf/T08//0tLO/9LSzv+2trP/bW1r/yYmJv8tLCz/WVhY/1xbW/9OTUz/TEtL/1VTU/9WVVX/WVhY/1lYWf9VU1L/TFVX/1Sjuv9KyvL/N46r/y5tdv8xcnb/Q6a4/0i93P86ma3/P21z/0RXWv9HR0f/REJB/0VDQv9IR0b/RURD/zQzM/82NTb/NzY3/zY1Nv8xMTL/Li4v/y4uL/8uLi//Li4v/y8uMP8uLi//Li4v/y4uL/8uLi//MTEy/zY1Nv81NTb/MzM0/zk4OP9FREP/NjY2/yUlJv8mJif/KSkr/ywrLf8uLi//NDQ2/zk4Ov88PD3/RURF/0VERf9VVFb/Y2Jj/2FfYP9OTU3/NzY1/zMyMP8xMC//Ly4t/ywrKf8qKSj/NjU0/0FBP/9APz7/JCMi/xgYGJkhISMS/v7+I+Dg4K/BwcHw3t7e/8nIxv+2tbL/trWy/7a1sf+2tLH/trSx/7a0sf+2tbL/tbWy/7W1sv+1tbL/trWy/7a1sv+2tbL/trWy/7a1sv+2tbL/trWy/7a1sv+2tbL/trWy/7a0sf+2tLH/trSx/7a0sf+2tLH/trSx/7a0sf+2tLD/tbOw/7a0sP+2tLD/trWx/7i2sv+6uLT/vLu2/8C/uf/FxL3/y8rC/9LRyf/X1s7/0M/I/8nIw//MzMb/z8/K/9HQzf/S0s//2trY/6Ghof82Njb/Gxsa/y4uLf9aWFj/XFtb/05MTP9MS0r/VVNT/1ZVVf9YV1f/WVdY/1VUVP9AQkL/QVRZ/0trdv9JZ3D/R2Bk/0dgY/9IZ2//Q2Ns/zBDR/8tLi7/LSwt/yoqK/8oKCr/KSgq/ygoKv8nJyj/HR4g/xkaHf8aGx7/GRkd/xQVGP8SExb/EhMW/xITFv8SExb/EhMW/xITFv8SExb/EhMW/xETFv8UFRn/GRod/xoaHf8ZGh3/Hx8i/yYmJ/8ZGhz/DxAT/w8QE/8PEBP/DxAU/xARFP8QERX/ERIV/xESFf8VFhn/GBkc/xsbHv8lJSf/LCwt/zY2Nf82NjT/MzIx/zEwL/8vLi3/LCsq/ykoJ/82NTP/QkE//0A/Pv8jIyL/ISEi0E9PUTD4+PhG2dnZ0sfHx/re3t7/wMDA/7Sysv+1s7P/tbOz/7Wzsv+1s7L/tbOy/7W0sv+1tLL/tbOy/7Wzsv+1s7L/tbOy/7W0sv+1tLL/tbSy/7W0sv+1tLL/tbSy/7W0sv+1tLL/tbSy/7W0sv+1tLL/tbSy/7W0sv+1tLL/tbSy/7W0sv+1tLH/tbSx/7a0sf+2tbH/trWx/7i2sv+6ubT/vbu2/8HAuf/Gxb7/y8rD/8bFvv+/vrj/w8O9/8jIwv/MzMf/0dHO/9fX1//e3t7/xMTE/3Z2dv8rKyr/LS0s/1lYWP9cW1v/Tk1M/0xLSv9WVFT/V1ZW/1hXV/9ZV1j/WFdX/1JRUf9KSUj/S0lJ/0pISf9JR0j/SEZG/0dFRf9GREP/R0VF/0hGRv9JR0f/SkhI/0pJSf9LSkr/TEtL/05MTf9PTk7/UE9P/1FQUP9RUFD/UlBR/1JRUf9SUVL/U1FS/1NSUv9TUVL/U1FS/1JRUv9RUFH/UU9Q/1FPUP9RT1D/UE9P/09OTv9NTEz/S0pK/0lISP9JSEj/SEdH/0ZFRf9FRET/Q0JC/0FAQP8/Pj3/ODg3/zIxMf8tLSz/Kyop/ygnJv8oJyb/MTAu/zU1M/8zMjH/MTEv/y8uLf8sKyr/Kiko/zY1NP9BQT//Pz89/yYlJf8dHR3sPT0/VvHx8VbMzMzOzs7O/dnY2v+3trz/r660/7Cvtf+wr7X/sa+0/7GwtP+xsLT/srC0/7Kxs/+ysbP/srGz/7Kxs/+zsbP/s7Kz/7Oys/+zsrP/s7Kz/7Sys/+0srP/tLKz/7Szsv+0s7L/tLOy/7Sysv+0s7L/tLOy/7Szsv+0s7L/tLOy/7Szsv+0s7H/tLOx/7W0sf+2tLH/trWy/7e2sv+5uLT/vLy2/8HAuv+9vbf/tbWv/7m4s/+/v7n/xMS//8zMyv/W1tb/3Nzc/9nZ2f/T09P/iouL/ycnJv8sKyv/WlhZ/11bW/9OTUz/TEtL/1VUVP9WVVX/WVhY/1lYWf9YV1f/V1ZW/1ZVVf9ZWFj/YF9f/2tqa/90c3T/e3l6/317ff9/fX7/gH6A/4KAgf+DgYP/hIKE/4aDhf+Ihof/h4WH/4mHif+KiIr/ioiK/4qIiv+Mioz/jIqM/4yJjP+Mio3/jYuN/4yJi/+Mioz/jYuN/4yKjP+LiYz/jIqM/4uJjP+LiYv/ioeJ/4iGh/+GhIb/hoSG/4WDhf+DgYP/gn+B/4B9f/99e3z/e3l6/3d1dv9samv/W1lZ/0hHR/84Nzb/Ly4t/y4tLP8zMjH/NTUz/zMzMf8yMS//Ly4t/ywrKv8qKSj/NjU0/0JBQP9AQD7/JyYm/xgYGfMgICNi7OzsbMLCwtXW1tb/0NDV/6+uu/+sqrj/rau4/62rt/+trLf/rqy3/66st/+vrbb/r622/6+utv+vrrX/sK61/7Cutf+wr7X/sa+0/7GwtP+xsLT/sbC0/7KwtP+ysLT/srG0/7Kxs/+zsbP/s7Gz/7Oys/+zsrP/tLKz/7Sys/+0srP/tLKz/7Sys/+0s7L/tLOy/7Wzsv+1tLL/trSy/7e2s/+6uLX/ubez/6+uqv+vrqr/tbSv/7q5tP/Ew8H/09PT/9ra2//V1dX/z8/P/87Ozv9lZGT/FhYV/ywsK/9aWVn/XVxc/05NTP9MS0r/VFNT/1ZVVf9YV1f/WVhY/1hXV/9WVFX/W1la/2xqa/99e33/iYeJ/4yKjP+KiIr/ioiK/4iGiP+GhIb/hYOG/4WDhv+Fg4b/hIKE/4WDhv+DgYP/gH6A/3d1d/9ycXP/cXBx/3BucP9wbnD/bWtt/25tbv9vbW//bWtt/21rbf9ubW7/b21v/29tb/9ycXL/c3Fz/3NydP94dnj/g4GD/4WDhf+GhIb/h4WH/4WDhv+HhYf/h4WI/4iGif+Jh4n/ioiK/4iGif+DgYP/d3V3/15dXf9BQD//Ly0s/zIxL/81NDP/MzMx/zIxL/8vLiz/Kyop/ykoJ/82NTT/QkFA/0FAPv8nJib/FxcY8xwdIGLk5OR4vb283dzc3P/GxdH/p6W9/6elvP+npbz/qKa7/6mnu/+pp7v/qqi6/6qouv+rqbn/q6m5/6yquf+sqrj/rau4/62ruP+trLf/rqy3/66st/+urbb/r622/6+ttv+vrrb/sK61/7Cvtf+wr7X/sK+0/7GvtP+xsLT/sbC0/7GwtP+ysLT/srG0/7KxtP+zsbP/s7Gz/7Oys/+0s7P/tbS0/7a0tP+uraz/p6ak/6yrqP+vr6v/uLe1/8vLy//Y2Nj/09PT/87Ozv/Y2Nj/2dnZ/3BwcP8fHx7/LSwr/1pYWP9cW1v/TUxM/0xLSv9VU1P/VlVV/1hXV/9ZV1j/WFZX/2FfYP93dnf/hIKE/4SChf+CgIL/f32A/318fv9/foD/f32A/358fv9+fX//f36A/399f/9+fX//gH6B/317ff9jYmP/TUxL/0tKSv9KSUj/SUdH/0hHRv9GRUT/R0ZG/0lIR/9IR0b/R0ZF/0ZFRP9GRUX/R0ZF/0lISP9KSUj/SklJ/05NTf9qaWr/gH6A/4F/gv+Bf4L/gH6B/4B/gf+Bf4L/gX+B/4B+gf+Bf4H/gX+B/4KAg/+Fg4X/gX+B/3BvcP9TUlL/Ozo5/zQ0Mv8zMzH/MTAv/y4tLP8rKin/KSgn/zY1NP9BQD//QD8+/ycmJf8XFxjzHB0gYuDg4KG/v7/r3t7g/7u50P+fnMH/oZ7B/6Gfwf+in8D/oqC//6Ohv/+job//pKK+/6Wjvv+lo73/pqS9/6ekvP+npbz/qKa7/6imu/+pp7v/qae6/6qouv+qqLn/q6m5/6upuf+sqrn/rKq4/6yruP+tq7f/ray3/66st/+urLf/rq22/6+ttv+vrbb/r662/6+utf+wrrX/sK+1/7Cvtf+xsLX/r66x/6Oipf+joqT/p6am/6qqqf+9vLz/09PT/9TU1P/Nzc3/2dnZ/9/f3//Y2Nj/b29v/yIiIf8tLSz/WVhY/1xbW/9NTEv/TEpK/1ZUVP9XVlb/WFdX/1lYWP9ZV1f/ZWNk/3x6fP+AfoD/e3l7/3h2eP93dnf/dnV2/3Z1d/9zcnP/c3Fy/3Jxcv9vbW//bGts/2xqa/9paGn/Y2Ji/0lHR/9HRUT/SUhG/0hHRf9IRkX/SEdF/0dGRP9HRkX/SEdG/0hHRf9HRkX/R0ZF/0dFRP9GRUT/R0ZE/0dGRP9GRUP/RENB/1FQT/9mZGX/aWhp/2tqa/9samv/b25v/3Vzdf90c3T/dHJz/3h2eP94d3j/d3V3/3x6fP+HhYj/joyO/4WDhP9YV1f/NjUz/zMyMP8xMC//Ly4t/ysqKf8pKCf/NjU0/0JBP/9APz7/JyYl/xcYGPMcHSBi2NjYtsTEw/bc2+H/r63P/5eUxf+al8b/mpfF/5uYxf+bmcT/nJnE/52aw/+dm8P/npvC/5+cwv+fncL/oJ3B/6Cewf+hnsD/oZ/A/6Kgv/+joL//o6G+/6Sivv+ko73/paO9/6akvf+mpbz/pqW8/6emu/+oprv/qKe7/6mouv+pqLr/qqm6/6qpuv+rqrn/q6q5/6uruf+sq7j/rKy4/6ysuP+mpa//nZyk/5+fpv+hoaX/qamr/8XExf/U1NT/zc3N/9jY2P/d3d3/4ODg/8PDw/9UVFT/Hx4d/y4tLf9aWFj/XVtb/05NTP9MS0r/VVRU/1dVVv9ZV1j/WVhY/1ZVVf9KSUj/SUhI/1BPT/9WVVX/VVRU/05NTf9NS0z/TEtL/0ZFRf9FRET/RURE/0FAP/88Ozv/QUBA/0xLSv9HRkX/NzY2/zs6O/88Ozv/Ojk6/zIyMv8tLS3/LS0t/y0sLf8tLS3/LSwt/y0sLf8tLS3/LSwt/y0sLf80MzT/OTk5/zo5Ov85ODn/PTw8/0hGRf8+PT3/Kyss/ykpKv8uLi//MzM1/zQ0Nf82Njf/Pj0//0FBQv9JSEn/S0pL/1taW/9oZ2j/ZmVl/1FQT/83NjX/MzIx/zEwL/8vLiz/LCsq/yopKP82NTT/QkE//0A/Pv8nJiX/GBgZ8x8fI2LQ0NDGyMjH+NjX4f+jodH/j4zL/5KPy/+Sj8r/k5DK/5ORyf+Uksn/lZLI/5WTyP+WlMj/l5XH/5eVxv+Ylsb/mZfG/5mYxf+amMX/m5nF/5uaxP+cm8T/nZvD/52cw/+encL/np3C/5+ewf+fnsH/oJ/B/6CgwP+hocD/oaG//6Kiv/+io77/o6O+/6Skvf+kpb3/paa8/6WmvP+mp7z/paa6/5ucrP+Xmab/mZuo/5qbo/+srK3/y8vL/87Ozv/T09P/3d3d/93d3f/e3t7/xcXF/15eXf8hIB//Li4t/1lYWP9dW1v/TUxL/0tKSv9VVFT/V1ZW/1lXWP9ZWFj/VlRV/z08O/8pKSn/JiUm/ykpKv8pKSr/ISEj/x8fIf8fHyD/Hh4f/x4eH/8eHh//Hh4f/x0dHv8eHiD/Jyco/ycnKP8cHR//Ghoe/xobHv8YGRz/EhMW/w8QE/8PERT/DxAT/w8RE/8QERP/EBEU/w8RE/8PEBP/DxAT/xITFv8ZGRz/Ghod/xoaHf8fICL/KCcp/xscHv8ODxL/DA4R/w0OEf8ODxL/Dg8S/w4PEv8PERT/EBEU/xUWGf8ZGh3/HR0g/ykpK/8vLzD/NzY1/zY1NP8zMjH/MTAv/y8uLf8sKyr/KSkn/zY1NP9CQUD/QD8+/ycmJf8XGBjzHR4hYsbGxszMzMv90tLi/5iW0/+IhtD/i4jQ/4uJz/+Lic//jIrO/4yLzv+Ni87/jYzN/46Nzf+Ojsz/j47M/4+PzP+QkMv/kZDL/5GRyv+Sksr/kpPJ/5OTyf+UlMj/lJXI/5WWyP+Vl8f/lpfG/5eYxv+Xmcb/mJrF/5maxf+Zm8T/mpzE/5qdw/+bnsP/m57C/5yfwv+coMH/naHB/52iwP+boLz/kJWr/5KWqv+Sl6r/lZeg/7CwsP/MzMz/zMzM/9vb2//d3d3/3d3d/9fX1//R0dH/dXV0/yQjIv8tLCz/WVhY/11bW/9OTUz/TEtK/1VUVP9XVlb/WVhY/1lYWP9ZV1j/UVBQ/0lISP9HRkf/RkVF/0RDRP9CQUH/QD8//z8+Pv9APz//QUBA/0JBQP9DQUH/Q0JC/0RDQ/9FRET/R0ZG/0hHR/9JR0j/SUhJ/0lISf9KSUn/SklJ/0pJSv9LSkr/S0pL/0pJSv9LSkr/SklK/0lISf9JSEj/SUhI/0lISP9IR0f/R0ZH/0ZFRf9EQ0P/QkFC/0FAQf9BPz//Pz4+/z49Pf88Ozv/Ozo6/zg4N/8zMzP/Li4u/ysrKv8pKCj/Jycm/ygnJ/8xMC//NjUz/zMyMf8xMC//Ly4t/ywrKv8qKSj/NjU0/0FBP/8/Pj3/JyYl/xcYGPMcHSBiu7u7xtDQz/3MzOL/jY3W/4GB1P+Dg9T/hITT/4SE0/+EhdP/hYXS/4WG0v+Gh9L/hofR/4aI0f+GidH/h4nR/4eK0P+IitD/iYvP/4mMz/+Jjc7/io3O/4qOzv+Lj83/i4/N/4yQzP+Mkcz/jZLL/46Ty/+OlMr/j5TK/4+Vyf+Qlsn/kJfI/5GYyP+Rmcf/kpvH/5Ocxv+Tncb/lJ7F/5Cavv+Ika7/i5Sv/4qTqv+RlZ3/tLOz/8nJyf/S0tL/3d3d/93d3f/a2tr/1NTU/9TU1O9tbW3sIiIh/C0tLP9aWFn/XVtb/05MTP9MS0r/VVRU/1ZVVf9YV1j/WVhZ/1lYWP9XVlb/VlRU/1lYWP9eXV3/Z2Vm/3FvcP93dXb/enh6/3x6e/9+fH3/f31//4F/gP+CgIL/hIKE/4aEhf+GhIb/iIaI/4mHif+KiIr/iYeJ/4uIiv+MiYv/i4iL/4uJi/+LiYv/i4iK/4qIiv+LiYv/i4mL/4qIiv+LiYv/ioiK/4mHif+Ihoj/hoSG/4WChP+EgoT/g4GC/4F/gP9/fX7/fXt8/3p4ev94dnf/dHJz/2hmZ/9XVVX/RURD/zc2Nf8vLi3/LSwr/zMyMf82NTP/MzMx/zEwL/8vLiz/LCsq/ykoJ/82NTT/QkFA/0BAPv8nJiX/FxcY8xwdIGKysrHD09PS/cbH4v+Ehtn/e37X/3yA1/99gNf/fYHX/32B1/99gtb/fYLW/36D1v9+g9b/foTV/36E1f9/hdX/f4bU/4CG1P+Ah9P/gIjT/4GI0/+BidL/gYrS/4KL0v+Ci9H/g4zR/4ON0P+DjtD/hI/Q/4SQz/+EkM7/hZHO/4WTzv+GlM3/hpXN/4eWzP+HmMz/iJnL/4may/+JnMr/hJa//3+Qsf+Ck7L/gZCo/46SmP+0tLP/xcXF/9bW1v/d3d3/3d3d/9fX1//V1dX+09PTtU9OTrkiIiH5Li0s/1pYWP9dW1v/Tk1M/01LS/9VVFT/V1VV/1hXV/9ZWFj/WFdX/1dVVf9aWFn/amhp/3x6e/+Jh4n/jIqN/4qIiv+KiIr/iYeJ/4eFh/+GhIb/hoSG/4SDhf+EgoT/hIKF/4OBg/+Bf4H/eXd5/3V0df9zcXP/c3Fz/3Nxc/9xcHL/c3Fz/3Jxc/9ycHL/cW9x/3Fwcv9ycXL/c3Fz/3V0df92dHb/dnV2/3p4e/+CgIP/hIKE/4WDhf+GhIb/hoSG/4eFh/+Ihon/iIaJ/4iGif+KiIr/iYeJ/4SChP91dHX/WllZ/z49PP8uLSz/MjEv/zU1M/8zMzH/MjEv/y8uLf8sKin/KSgn/zY1NP9BQT//QD8+/ycmJf8XFxjzHB0gYrW1tM/V1dX9wMPi/3yD2v91ftr/dn/Z/3aA2f92gNr/doDZ/3aB2f92gdn/d4LY/3eC2P93gtj/d4PY/3eE2P94hNj/eIXX/3iF1/94htb/eIfW/3mH1v95iNb/eYnV/3qJ1f96itT/eovU/3qM0/96jtP/e4/T/3uQ0/97kdL/fJLS/3yU0f99ldH/fZbR/36Y0P9+mc//f5vP/3+dzv95lsD/eJG0/3qVtf96j6b/i4+U/7Kxsf/ExMT/2NjY/93d3f/c3Nz/1dXV/9bW1vnb29t+Xl5ehSoqKfEuLSz/WlhY/1xbW/9OTEz/TUtK/1ZUVP9XVlb/WVhZ/1pZWv9YV1f/X15e/3Vzdf+EgoT/hoSH/4OBg/9/fX//fXt+/399gP9/fYD/f31//4B+gP+AfoD/fn1//358f/9/foD/fHp8/2RjZP9NTEz/SUhI/0pJSP9KSUj/SUhH/0dGRv9IR0b/SEdG/0dGRv9HRkb/R0ZG/0dGRv9IR0b/SklI/0pJSP9JSEj/UU9P/2tpa/9/fYD/gX+B/4F/gf+Af4H/gYCC/4KAgv+BfoH/gX+B/4GAgv+Bf4H/g4GD/4WDhv+Bf4H/bmxt/1BOTv86OTj/NTQy/zMyMf8xMS//Ly4t/ywrKv8qKCf/NTQz/0FAP/9APz7/JiYl/xcXGPMcHSBitbW12NfX1/68weL/dYPc/3B/2/9xgNv/cIHb/3CB2/9wgdv/cILb/3GC2/9xg9v/cYPa/3GE2v9xhNr/cYXa/3GF2f9xhtn/cYbZ/3GH2P9yiNj/conY/3GJ2P9yitf/covX/3KM1/9yjdb/co7W/3KP1v9zkdb/c5LW/3OT1f90ldX/dJbU/3SY1P91mdP/dZvS/3ad0v92n9H/dqHQ/3GZwf9ylbX/dJm2/3WQo/+Gi4//rKur/8HBwf/Y2Nj/3d3d/9vb2//V1dX/2NjY9+Tk5Gx/f4BSLSws4y0sLP9ZV1j/XVtb/05NTP9LSkn/UE9P/1BPUP9TUlL/UlFR/1dVVf9nZmb/gX+A/4OBg/99fH7/eHd5/3l3ef94d3j/dnR2/3d1d/91dHX/cnBx/3Fwcf9ycXL/cG5w/2ppaf9iYGH/R0ZF/0ZFQ/9IR0X/SEdF/0lHRv9JR0b/SEdF/0hHRf9IR0b/SEdF/0hGRf9IR0X/R0ZF/0dFRP9IRkX/R0ZE/0ZEQ/9DQkH/UE5O/2VkZP9qaWr/cXBx/3Jxcv9xb3H/dHJ0/3h2eP93dnf/eXd4/3t5e/95eHr/fXt8/4iGiP+Oi43/hIKD/1dVVf82NTP/MzIx/zIxMP8vLi3/LCsq/ykoJ/82NTT/QUA//0A/Pv8nJiX/FxcX8xscH2KxsbDT2NjY/rjB4v9vhd3/aoLc/2uD3f9rg93/a4Tc/2uE3P9rhdz/a4Xc/2uG3P9rhtz/a4fb/2uH2/9riNv/a4ja/2uJ2v9ritr/a4va/2uM2f9rjNr/a43a/2uO2f9rj9n/a5HZ/2uS2P9sk9j/bJTY/2yW2P9sl9f/bZnX/22a1/9tnNb/bp7V/26g1P9uotP/bqTT/2+m0v9vp9D/a5/B/22atP9vnrT/cJSi/4CHif+ko6P/vb29/9fX1//d3d3/29vb/9XV1f/Y2Nj34uLicGlpa18pKSjnKyoq/1VUU/9ZWFf/TUxL/0NERf8xMjT/LSws/zIyMv86ODf/T0xL/0dGRv88Ozv/Tk1O/1xbW/9YVlb/VFJS/1JQUP9LSkr/S0pK/0pJSf9EQ0P/Q0JC/0RDQ/9HRkb/TUtL/0dGRf82Njb/PTw9/z49Pf89PDz/PDw8/zw8PP89PDz/PTw8/z08PP89PDz/PDs8/zw8PP88Ozv/PDs7/zw8PP88PDz/PDs8/zo6Ov88PDz/SEdF/0NCQv8+PT7/Pj0+/zw7PP9AP0D/RURF/0RERf9HRkf/TkxO/1FPUP9RUFD/YF9g/2hmaP9nZmf/UlBQ/zc2NP8zMjH/MjEv/y8uLf8sKyr/KSgn/zY1NP9CQUD/QD8+/ycmJf8dHR7zKywvYrGxsNPY2Nj+tsLj/2uJ3v9mht7/Z4fd/2eI3f9niNz/Zonc/2eJ3P9midz/Zorc/2aL3P9mi9z/Zozc/2aM2/9mjdv/Zo7b/2aP3P9mkNv/ZpHa/2aS2/9mk9r/ZpTa/2aW2v9ml9r/ZpjZ/2aa2f9nm9n/Z53Z/2if2P9ooNf/aKLX/2ik1v9optX/aajU/2mq0/9qrNH/aq7Q/2uwzf9oqb//aaGw/22lsP9umqD/eYSF/5qZmf+1tbX/09PT/93d3f/c3Nz/1tbW/9bW1vzPz8+rPz9AtxkZGPkpKCf/SkhH/0xKSf9EQ0L/QEFC/y8wMf8qKSn/Ly8v/zU0M/9MSUf/NDMz/xYWFv8eHh//LCss/ywsLf8lJCX/JCMk/yIiIv8iIiL/IiEi/yEhIf8hISH/ISAh/yIiIv8rKyz/Kyss/x8fIf8eHSD/Hh4g/x4eIP8dHiD/HR0g/x0eIP8dHSD/HR0g/x0eIP8dHiD/HR0g/x0dH/8dHSD/HR0g/x0dIP8dHSD/HR0f/yMjJf8sLC3/IyMk/xkZG/8YGBr/GBga/xkZG/8ZGRz/GRkb/xkaHP8bGx3/Hh4h/x8fIv8hIST/JiYo/ysrK/80NDP/NjUz/zMyMf8xMC//Ly4t/ywrKv8pKSf/NjU0/0FBP/9APz3/JSQk/zY2N9lubnFFsrKy09fX1/62xOP/Z47f/2KK3v9ii93/Y4zd/2KM3P9ijdz/Yo7d/2KO3f9ij93/YpDc/2KR3P9ikt3/YpLc/2KT3P9ilNz/Ypbc/2KX2/9imNv/Ypnb/2Ka2/9inNr/Yp3b/2Kf2v9joNr/Y6LZ/2Ok2f9kptj/ZKjY/2Sq1/9kq9b/Za7V/2Ww1P9mstL/ZrTQ/2e2zv9ot8v/abnI/2i0vf9op6v/bqqp/2+inv9zhIL/jYyM/6urq//Ly8v/29vb/93d3f/Y2Nj/19fX/6ysrPMvLy/3EhIR/y4tLP9EQ0L/RENB/0A/Pf9JSEf/UE9P/1BPT/9SUlL/UlFR/1ZVVP9PTk7/RkVF/0NCQf9BQED/QD4+/z08O/88Ozr/PTw7/z08O/89PDv/PTw7/z08O/88Ozr/PDs6/z08O/89PDv/PDs6/zw7Ov88Ozr/Ozo5/zs6Of87Ojn/Ozo5/zs6Of87Ojn/Ozo5/zs6Of87Ojn/Ojk4/zo5OP87Ojn/Ojk4/zo5Of87Ojn/Ozo5/zo5Of86OTj/OTg4/zk4N/85ODj/OTg4/zk4N/84Nzb/ODc2/zg3Nv84Nzb/NzY1/zQzM/8zMzL/MzIx/zU1M/81NTP/MzMx/zExL/8vLi3/LCsq/yopKP82NTP/QUA//0A/Pv8kIyP/GhoblkRERhWysrLJ1tbW/bjI4/9mk97/XY/e/16Q3f9ekd3/XpHd/16S3f9ek97/XpTd/16V3f9elt3/Xpfd/16Y3f9emdz/Xprc/16b3P9fndv/X57b/1+g2/9fodv/YKPb/2Ck2/9gptr/Yaja/2Gq2f9hrNn/Yq7Y/2Kw1/9istb/YrTV/2O21P9juNL/Y7nQ/2S7zv9lvcv/Zr/I/2jAxP9qwcD/ar23/2qtpP9wrqD/c6qa/3KKgf9/gID/np6e/7y8vP/X19f/3d3d/9nZ2f+pqan/S0tL/xQUE/8ZGBf/NjU0/z8+Pf8/Pjz/Pj08/0tKSf9WVFT/V1VV/1hXV/9ZWFj/WFdX/1dWVv9XVlb/V1ZW/1RTUv9RUE//UE5N/09OTf9QTk3/UE9O/1FQT/9RUE//UVBP/1BPTv9RUE//UlBP/1FQT/9SUVD/U1FQ/1JRUP9SUE//UlFQ/1JRUP9SUE//UlBQ/1JRUP9SUVD/UVBP/1FQT/9RUE//UU9P/1FQT/9RUE//UVBP/1BPTv9QTk3/T01N/09NTf9OTUz/TkxL/05MS/9OTEv/TEtK/0tKSf9MSkn/S0lI/0pJSP9IRkX/RENC/0A/Pv87Ojn/ODc1/zU0M/8zMjH/MTAv/y8uLf8sKyr/KSgn/zY1NP9CQT//QD8+/yMjIv8JCgqJAAAADaKioqPU1NP8u8zj/2WZ3v9alN7/XJXe/1yW3f9cl93/XJje/1yZ3v9cmt3/XJvd/1yc3P9cndz/XJ/c/12g3P9dotz/XaPc/12l2/9dp9z/Xqjb/16q2/9frNr/X67a/2Cw2f9gstn/YLTY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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//////////AAAAAAAAAAf/////////+AAAAAAAAAAD/////////4AAAAAAAAAAAf////////+AAAAAAAAAAAD/////////gAAAAAAAAAAAf/////////AAAAAAAAAAAH/////////gAAAAAAAAAAA/////////4AAAAAAAAAAAP///////gAAAAAAAAAAAAD///////AAAAAAAAAAAAAA//////+AAAAAAAAAAAAAAP/////+AAAAAAAAAAAAAAD/////8AAAAAAAAAAAAAAA/////8AAAAAAAAAAAAAAAP////4AAAAAAAAAAAAAAAD////8AAAAAAAAAAAAAAAA////8AAAAAAAAAAAAAAAAP///+AAAAAAAAAAAAAAAAD////AAAAAAAAAAAAAAAAA////gAAAAAAAAAAAAAAAAP///gAAAAAAAAAAAAAAAAD///wAAAAAAAAAAAAAAAAA///wAAAAAAAAAAAAAAAAAP//4AAAAAAAAAAAAAAAAAD//+AAAAAAAAAAAAAAAAAA///AAAAAAAAAAAAAAAAAAP//gAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAA//4AAAAAAAAAAAAAAAAAAP/8AAAAAAAAAAAAAAAAAAD/+AAAAAAAAAAAAAAAAAAA//AAAAAAAAAAAAAAAAAAAP/wAAAAAAAAAAAAAAAAAAD/4AAAAAAAAAAAAAAAAAAA/8AAAAAAAAAAAAAAAAAAAP/AAAAAAAAAAAAAAAAAAAD/gAAAAAAAAAAAAAAAAAAAfwAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAAAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAAAAAAA/AAAAAAAAAAAAAAAAAAAAP4AAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAP+AAAAAAAAAAAAAAAAAAAD/wAAAAAAAAAAAAAAAAAAA/8AAAAAAAAAAAAAAAAAAAP/wAAAAAAAAAAAAAAAAAAP/+AAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAf//gAAAAAAAAAAAAAAAAAH//8AAAAAAAAAAAAAAAAAD///gAAAAAAAAAAAAAAAAD///4AAAAAAAAAAAAAAAAA////gAAAAAAAAAAAAAAAAP///+AAAAAAAAAAAAAAAAD////wAAAAAAAAAAAAAAAA////+AAAAAAAAAAACAAAAP////wAAAAAAAAAABgAAAD/////AAAAAAAAAAA4AAAH/////4AAAAAAAAAA+AAAB//////AAAAAAAAAAfgAAAf/////+AAAAAAAAA/4AAAH//////8AAAAAAAA//gAAD///////wAAAAAAB//4AAA////////AAAAAAB//+AQAf///////+AAAAAAf//wccH////////+AAAAAH///////8L</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>FT-70D Programmer ADMS-10</value>
+  </data>
+  <data name="menu_FileEnd.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="menu_FileEnd.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_ComRead.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_ComRead.Text" xml:space="preserve">
+    <value>データ取得</value>
+  </data>
+  <data name="&gt;&gt;menu_FileNameSave.Name" xml:space="preserve">
+    <value>menu_FileNameSave</value>
+  </data>
+  <data name="&gt;&gt;menu_FileNameSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_FileOpen.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_FileOpen.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowRL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowRL.Name" xml:space="preserve">
+    <value>menu_WindowRL</value>
+  </data>
+  <data name="&gt;&gt;menu_Help.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_Help.Name" xml:space="preserve">
+    <value>menu_Help</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditCopy.Name" xml:space="preserve">
+    <value>toolStrip_EditCopy</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI4DAAB9AgAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="menu_FilePrint.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAUAACAAs=</value>
+  </data>
+  <data name="menu_FileNameSave.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_FileNameSave.Text" xml:space="preserve">
+    <value>名前を付けて保存(&amp;A)...</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditCut.Name" xml:space="preserve">
+    <value>toolStrip_EditCut</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditFined.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditFined.Name" xml:space="preserve">
+    <value>toolStrip_EditFined</value>
+  </data>
+  <data name="toolStrip_ComRead.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtQEAAAKJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAUpJREFUWEftkmsSwyAIhHP0HC03S1m6ULDmVUl+lZlP4gq4dTr9I8Y8zyuY1lXzE/BqDwhqQLH9TewbkOVuE8cGognkKnjPOQPAmuKQETBLeBvoFQBZEqoVmcAcgS8A4STWzEHx0DRllj2IWgT1wnUDgAPaA7/06HKAeuE3A4BDovisAcBB2CBBscv1W9cNtKfgBaJG1cm7Bu0d/A9EjWriWwlo/y8GrFkz9yTuot4FM4S3gV4BkCWh2onhZ8AcgS+Q4nOJLI41xSEjYJZwzoA1xAGj8J5jA1YcmyvgPfsGWIiiauwefqf4GLDvG9k28BA9A7thT3gFtpZG+hUHXI7ekNvovdC6LIseVmWjp7cG9BBiRcY8oz2HxpzCiyuysaW3BrwoOh3JNrOdiz2+Jafww9HM4U57DloDLqKoItvMns6cwhueIBuYpheL3Q5w6RyiawAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="&gt;&gt;menu_Edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_Edit.Name" xml:space="preserve">
+    <value>menu_Edit</value>
+  </data>
+  <data name="toolStrip_EditCopy.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="menu_FileClose.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_FileClose.Text" xml:space="preserve">
+    <value>閉じる(&amp;C)</value>
+  </data>
+  <data name="&gt;&gt;menu_FileOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FileOpen.Name" xml:space="preserve">
+    <value>menu_FileOpen</value>
+  </data>
+  <data name="menu_WindowUD.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAL8AAAAWAAAACw==</value>
+  </data>
+  <data name="menu_WindowUD.Text" xml:space="preserve">
+    <value>上下に並べて表示(&amp;O)</value>
+  </data>
+  <data name="menu_EditChInsert.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAALQABAAs=</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;menu_SetMode.Name" xml:space="preserve">
+    <value>menu_SetMode</value>
+  </data>
+  <data name="&gt;&gt;menu_SetMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI4DAAAXAAAACw==</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChMove.Name" xml:space="preserve">
+    <value>menu_EditChMove</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_EditChUp.Text" xml:space="preserve">
+    <value>上へ移動(&amp;U)</value>
+  </data>
+  <data name="menu_EditChUp.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditFined.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAARgACAAs=</value>
+  </data>
+  <data name="toolStrip_EditSort.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAAQIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAZZJREFUOE9jgAGv+pMS9gX7v1rGLBKDCuEC/6E0KvAsOrjKNXv7f6vwaaVQIVwAuwFuuVvv2Seue2gc3PMSKoQLYBrgWnDQyTV7/XfL+PkaxgGd/y0jZwZApbABLAZkbj/tmLzullnYpGkmgfVfzEMmHYRKYQOoBoSGrmK2T9n+0T5riwSIbxE5w9fYv+O/WfR0LbACTIBqgEvm1mNmofU/LMImpxj7zOQydm9/DzLA2L/9IlQJOsAeiCQATAMmR+StnRyavnN6ZOHcqVEFuya6el3sMdJIgUqjAywGuAduA9GzI5LFp3p4vKjVUroHlsAOMA2Y5uoKTn0zA2Nn1umr/q/XVwsDS6CCRiD2BmKQAa5A3AXECDAnPMt5krvv/zo91VVQIXRgDMQgzTDsBMQIMDU6/0GXodqLVnMdcRB/iqOjNlgCFWwBYpDmY2AeDEwLy+rtt7f732GkkQriT/SwEe001FgKlkQFMFcgbJ/i7qtdb6z0pUhN6WutnsrsJgOVFcVacq+qdZXnQpWgg2ooTQ3AwAAAaNiGYq1aPC8AAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="menu_EditChUp.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAVQACAAs=</value>
+  </data>
+  <data name="menu_FileOpen.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAATwACAAs=</value>
+  </data>
+  <data name="toolStrip_FileOpen.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAJQMAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAArpJREFUOE+lk/lPE1EQx/dv1MRo4lWNeEG8UVGjMRrReFCvCmkMosF4oCgqEAU5NFaptWUR5ai9oPbY7m63B3RBP84WNP6sL/nkO/PevMmbyTyF/1yKrhvohklOFxw1rKpf3c/lMAydrKbRdr+Hmn3nudR8j1gsQSQax5QzJSeH2fgE2cS0MCVMkomLano1kZk3CYS+8Lx3iHLJ5PGz12w5cJEjjd6lBMnAU6ygm8J4C4XPgupGf3+OWKCfdNaQlxXJW2Usq0SxNE9gbJqaejen3W3oWkYSDFyBhW4odIDVCfm7oHux1Gtk1UfoX5+ifX6Mpnagh+4SHXlEeDpMfDaFZhiS4I0H5rpAk4tGOz+SHuxvjSxGTlIZP0A5WEvBv5W8bzPm0BrGH2xnKviRbCqN9j2Jkhi8Jgk6+Jm6QnGiESNwFTN0h7x6G2vstpR1S7RV/JtSnhdjpFlibpEfbSf8cDtKpF9KKLdL4GGSw4epfGliYfwo9ughoYGKKntjDSwIjtoSt6AeguQxXpxZ6SS4KvW3Eh/cRdZ/gZ/TZ5kP7sMO1TMv2KGDf9n1VAQmG5hsX0H/8yco4VdNzCXcjD07ClGPXN7D3KfdzAX2Uv7k2KJVe6/s7cFW91PwbaXLXcvEt1mUqZ5zpD6eIONvkucdofh+G8WROqFW2ElJtLTsl/x12MGd+G6uYqC3k1RaQ1E7TxEZOsPi5EXyb11YvhrpuNN10Xc1WELVFy37txHrWsXL1uN8nQpjmCbKsKeOxag0ctRF5cNqKiPrlvCvxRa1/Q5L9rxvJW+8a3n72hkyZ8xlDobbTtDbvIOeJhfdl130tWxkoGUDfTdcvPJsoOf6RvqEwZb1DHo3Mdx9n0gsKX9FRl1QcmaBSCIlpInNpIkmMsuIPSP6G/GduNlUhpx8sj8Jln/lPy74BTXwaVXkwKNhAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="toolStrip_EditChUp.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_EditChUp.Text" xml:space="preserve">
+    <value>上へ移動</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChClear.Name" xml:space="preserve">
+    <value>menu_EditChClear</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditChUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditChUp.Name" xml:space="preserve">
+    <value>toolStrip_EditChUp</value>
+  </data>
+  <data name="toolStrip_EditChDown.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAWwIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAfBJREFUOE+tkO1LU1Ecx/fn9PAifFEg1Yhelch6AjEIC3WhJZUGK4oh0bRiISNr5mqWi7lSmJbOHsRNGsaKQoVAqRjlvLWt8qGV7tFP27n3vpDdFwl94cPhnu/5fQ736Aqx9sZRae2J09wdw3QnSsPNb1S3faXyioTh0hx6U0RQ2jSLGFRTGHS9BMdoDvvzLDZfButAGktfCrMnyTnXMo3OPxhvJQQlxnfFggIWd4wL92Kc6pBvrmiVKDNH2KXcqrKlOrRW4Bl+y3qyraz2PwsePAkplRzT3ShNt+douBHGaJ2myjKpNHK27q1ZK+jyBpVKzhn7LD3BDB35B702kKO8cVRp5BQJHI/8JNOrpPIk0znq2j7Q5c9x3p3jiG0Ffe1jpc8JigR29wvmExkWElmxHm2ZosW7SlV7loqrP9hRMyQ6tS8StLueEvmeEv9+tlPihO0j5odw+Pov9jWH2XjQQ+kxL7vrfETiKW3B9JdlXr1fxGAa56RjhdPOJIcsEntMU2w/PsIGg5PBYESc0xS8mUkIBsdjbK70cuCyRPnFGfT1ATbtv0/vyOd8/1ugKQhMLjE2sUhgYok+f1RIdtaPUVLhonsoLPZVNAXDoXmZ14V1AdczSUg6+z+JbxVfHk1Bf/DnP6MpKGyuB3lSp/sLoByB4E/TI5wAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="toolStrip_FilePrint.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAygIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAl9JREFUOE+tketPUmEcx1nrVX9Cve91vXBtretmC8VLWi1UVILpSsoGWgdFZRlSYU67WEtydnROwaEWOoamNJZOISfzsnS5eSEvBUICEobwDQ5HGba2tvpsv+3Z2fP9fp79DuO/YzAY9qv7LEWdg1P402gGJkFf/x2V3iIaHZ13Yw9bP7exuOJEh24ESbklwYRs8WE6EkX1bvyQSj+OQCAIm8MFo/kTNd39JrRrh2GeWgKnUI7zVwgnHYmlRWt6Nb/soJ0RwuYNtw/Tc2vQ6E1g5YiDCRxCQEeiNHR9OKLUDGM7ZF9atcfYdcYJmCYXkVEgQ2qWxPdI+QZPm3XRPZTVtGWGwwOm2V3rjnnV7sHsgh0N7f1I5pZCWtuKRs0Qkq9KIgXEfTJV9qJjmdR+xEuVES1vR/GE1OPuYxWElUpwRdVI45cjMZtA5o0q1DX1oFimRGKOOFJQ87oPLo+PMu/Fvx2A1+enXvLN4cWXr25IFCTyidrQC0ojBbLnndC+t6Cr3wyy04Bnzb2Q16tRqmhCYUU9eEXVYBdU4gJPAmZWMW6GvmUI7uHMpcJIgbRODeuKjXbG4trcwuLqBg6AQc0+kgGu8CGScgjEJfB3dtDmnJhZQGhnu4TP624/ZqybGJp2UOEeuuBiXjlOpQuiBRUKskraoPEu2XxweIJY+R7E3FoAI59/oHfMjVajkwruzDm2kArHMXndVEG+6MEJsbxpfXDMSv3bv5lwwdF43kGqIMztqsbT6flSpPDKwMotAZNzB/FsEc5evoWTaQIcT7mGY6y8iJmy86/T0X+FwfgFhYkmHIZUSFQAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="&gt;&gt;menu_Window.Name" xml:space="preserve">
+    <value>menu_Window</value>
+  </data>
+  <data name="&gt;&gt;menu_Window.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menu_WindowRL.Text" xml:space="preserve">
+    <value>左右に並べて表示(&amp;V)</value>
+  </data>
+  <data name="menu_WindowRL.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAL8AAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditFinedNext.Text" xml:space="preserve">
+    <value>次を検索(&amp;N)</value>
+  </data>
+  <data name="menu_EditFinedNext.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditChDown.Name" xml:space="preserve">
+    <value>toolStrip_EditChDown</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditChDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FileSave.Name" xml:space="preserve">
+    <value>menu_FileSave</value>
+  </data>
+  <data name="&gt;&gt;menu_FileSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_FileNew.Text" xml:space="preserve">
+    <value>新規作成(&amp;N)</value>
+  </data>
+  <data name="menu_FileNew.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditCopy.Text" xml:space="preserve">
+    <value>コピー(&amp;C)</value>
+  </data>
+  <data name="menu_EditCopy.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_ComWrite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_ComWrite.Name" xml:space="preserve">
+    <value>menu_ComWrite</value>
+  </data>
+  <data name="&gt;&gt;menu_FileInport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FileInport.Name" xml:space="preserve">
+    <value>menu_FileInport</value>
+  </data>
+  <data name="menu_EditChMove.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAARwACAAs=</value>
+  </data>
+  <data name="menu_ComRead.Text" xml:space="preserve">
+    <value>FT-70Dからデータ取得(&amp;G)...</value>
+  </data>
+  <data name="menu_ComRead.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOkAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_FileSave.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_FileClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_FileClose.Name" xml:space="preserve">
+    <value>menu_FileClose</value>
+  </data>
+  <data name="menu_SetToolbar.Text" xml:space="preserve">
+    <value>ツールバー(&amp;T)</value>
+  </data>
+  <data name="menu_SetToolbar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMoAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditUndo.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAWgACAAs=</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FilePrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FilePrint.Name" xml:space="preserve">
+    <value>toolStrip_FilePrint</value>
+  </data>
+  <data name="menu_Set.Text" xml:space="preserve">
+    <value>設定(&amp;S)</value>
+  </data>
+  <data name="menu_Set.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD4AAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileOpen.Name" xml:space="preserve">
+    <value>toolStrip_FileOpen</value>
+  </data>
+  <data name="toolStrip1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAGgAAAAs=</value>
+  </data>
+  <data name="menu_EditPaste.Text" xml:space="preserve">
+    <value>貼り付け(&amp;P)</value>
+  </data>
+  <data name="menu_EditPaste.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_File.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFUAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_File.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="toolStrip_FileOpen.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_HelpVersion.Name" xml:space="preserve">
+    <value>menu_HelpVersion</value>
+  </data>
+  <data name="&gt;&gt;menu_HelpVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditCut.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_EditPaste.Name" xml:space="preserve">
+    <value>menu_EditPaste</value>
+  </data>
+  <data name="&gt;&gt;menu_EditPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_FileSave.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAUwACAAs=</value>
+  </data>
+  <data name="menu_EditPaste.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;menu_Set.Name" xml:space="preserve">
+    <value>menu_Set</value>
+  </data>
+  <data name="&gt;&gt;menu_Set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditCopy.Text" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="toolStrip_EditCopy.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_EditFined.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="StatusLabel.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwAAAASAAAACw==</value>
+  </data>
+  <data name="StatusLabel.Text" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileNew.Name" xml:space="preserve">
+    <value>toolStrip_FileNew</value>
+  </data>
+  <data name="&gt;&gt;menu_EditFinedNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditFinedNext.Name" xml:space="preserve">
+    <value>menu_EditFinedNext</value>
+  </data>
+  <data name="menu_WindowNormal.Text" xml:space="preserve">
+    <value>重ねて表示(&amp;C)</value>
+  </data>
+  <data name="menu_WindowNormal.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAL8AAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStrip_ComWrite.Text" xml:space="preserve">
+    <value>データ送信</value>
+  </data>
+  <data name="toolStrip_ComWrite.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditCopy.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAQwACAAs=</value>
+  </data>
+  <data name="toolStrip_EditFined.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="toolStrip_EditFined.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_ComWrite.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAxAEAAAKJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAVlJREFUWEfdkoFuxCAMQ/vp/HkP50hqckBoWmnSPL0ehcQx1Y6bOompSimnpx091laAKq77vwGW8Od/K8DPkARp8U06+JYjfH1lQ+fpC6XZG8p78DcIsSEEuEJ0BnozxZ9vsCEZbiE6kkON1h9IAwxCrAKUgupLeAd9zd0AQN47g7b+hcX7rp9UC4fUR4fsmUFnrrD8GXqon+UGrRDjvwwAqjma/ACWPwPo+fY9DQAGQ1j+DGAQeCcAoEEsHqpgiPLaF0CjDmD5gZ7X/geyPAsgNxSDLVCr8F79JeFGI+qjQ/bMwNb6rmtG65i2H8gHqO9qODMeoUG4p60DcQB3czZjdBAzq6u/gTTAd7jsKGxcHwKfR+wHuIZD3iDNjS/QyRssQY3W8bqRkhmwWTBoRkpmsDMkCJaSGbBZMGhGSmawMyQIlpIZsFkwaEZKZrA5ZEVaYvAgwEDH8QGboZT+xjlhlwAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="toolStrip_FileNew.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAgQEAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAARZJREFUOE+tkNtKAlEYheel6h3sNept9C7qIqILD4gIBiMUGh7oAE4FIjpgJ2SwFB3PNo2HcVbs4RdnN7aZCz9Y7Iu91nfxSztDvq3jb1L5GhKZMqJpBZG0EqTqdtjgP86TRewfHIkllwWV6l5OohlkH2qOJCyXQjThSd5UqO7lOHztjNehCU/86pnqXpbWypGsRTThicglqvPYtg3DXKDTNxzBXuBwu+AidUcTnvnCwmBsQmuPxYKzRJ4mG6yVjYkxR0v/xqs2EAtOY1mabTBnS+jDHzS+Rqi+6WIB+3TDDjeaztDsTFBv9PGktv0L3Id7bw5ReenivvzpX+A+nPrRg1JtIfeo+ROwVxShgH36CU12gST9AjuW9DXUtNMcAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="&gt;&gt;menu_SetStatusbar.Name" xml:space="preserve">
+    <value>menu_SetStatusbar</value>
+  </data>
+  <data name="&gt;&gt;menu_SetStatusbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditAddFreq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditAddFreq.Name" xml:space="preserve">
+    <value>menu_EditAddFreq</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditChDown.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="menu_FilePrint.Text" xml:space="preserve">
+    <value>印刷(&amp;P)...</value>
+  </data>
+  <data name="menu_FilePrint.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;untitle1ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;untitle1ToolStripMenuItem.Name" xml:space="preserve">
+    <value>untitle1ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChUp.Name" xml:space="preserve">
+    <value>menu_EditChUp</value>
+  </data>
+  <data name="toolStrip_FileSave.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_FileSave.Text" xml:space="preserve">
+    <value>上書き保存</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_WindowNormal.Name" xml:space="preserve">
+    <value>menu_WindowNormal</value>
+  </data>
+  <data name="&gt;&gt;menu_EditSort.Name" xml:space="preserve">
+    <value>menu_EditSort</value>
+  </data>
+  <data name="&gt;&gt;menu_EditSort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_ComWrite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_ComWrite.Name" xml:space="preserve">
+    <value>toolStrip_ComWrite</value>
+  </data>
+  <data name="menu_EditFined.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditFined.Text" xml:space="preserve">
+    <value>検索(&amp;F)...</value>
+  </data>
+  <data name="statusStrip1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAZgIAAAs=</value>
+  </data>
+  <data name="toolStrip_EditPaste.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toolStrip_EditChUp.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAQgIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAddJREFUOE+Vkt1LWmEcx/1XRkWxi0JGg25iF42oscobibqzopsprZiDlowgLOht9GLMpcvTqq2gYkPHgjLqxl4VDQx2UWovavQiLjlq7rvzPMfTOJwDmz/48Bx+3/P9PBfnKMj0z0chYJyN4q0tAv2HMF6MnUMzdIb63lPUdJ+gXB+ilLUHQYvCkCKzAZhXMzD9uMM7exr9yyn0LCRhmGPxmkngpeUWLeNxirJlTyog9MxE0PkxAt0Ef7PaeIpqQwhPsrcKlGhcYsGcYxe5zOPq5n8LDo5Z6MaD8P2MZjd/RyKY/urKRvz4gyz0k2HY1tNQqhmJpLSqSSywLm5mI3F54BtQbwzgYd2USCIRmL+sgU39hu+IRYf5HFNO7itwZa0VaBxOoPKVF0U1Fuz7w0imMlKBaWYFV/E0LZe3efGodR+DnKB5LEYpVn9GwXML8qtM9D2JYJT5jtBFEifRJEIc5KexrmVouaEvgMJahmZCLivwBxL3EIHhE19WvfGg4JlZlMsKtg/jlB0OIiDlui4PnmpXkVc5gh0/yX9RZAVOTwzr7hs43TEqKFa9x4OKgXvIXkBW4HBd8WyR8xp27tnOnfyenDxkJytY2rz8b2QFZJkLfFOh+AMabH5oRkuAYwAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="toolStripSeparator15.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="menu_EditFinedNext.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStrip_EditPaste.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menu_EditChDelete.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAALgABAAs=</value>
+  </data>
+  <data name="toolStrip_ComWrite.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="toolStripSeparator17.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="menu_EditCut.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditCut.Text" xml:space="preserve">
+    <value>切り取り(&amp;T)</value>
+  </data>
+  <data name="toolStripSeparator14.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_ComRead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_ComRead.Name" xml:space="preserve">
+    <value>toolStrip_ComRead</value>
+  </data>
+  <data name="menu_FileOpen.Text" xml:space="preserve">
+    <value>開く(&amp;O)...</value>
+  </data>
+  <data name="menu_FileOpen.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStripSeparator11.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPYAAAAGAAAACw==</value>
+  </data>
+  <data name="menu_Window.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGYAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_Window.Text" xml:space="preserve">
+    <value>ウィンドウ(&amp;W)</value>
+  </data>
+  <data name="toolStrip_EditFined.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAlwIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAixJREFUOE/Nk19IU2EYh09CSWAgEhjURYFYCsFESsYWdhFrGm2EzpVdrBp044LN2JZunNPF5mF/rI7OwswZWtGa5RqVTgobjgprIIOiAluusuFCJ5U1bf3aOVvE0CCoi57L533f3/fx8n3EP8Xa5Q9rLJ7p7TLrREZxWLr9I8v5JQgOtLvnPiWQx9NGCILKSVsqJ9v/BvaUZmYQ0oZu8KQ2lIrMMdYzlwNYzi+BOjuMr4lF3Bx9BS0zik27zEjpFT+9NxAG3TuOIlEL67PRtA4VUB0+KMl+VB3twlapHYJ6B8rrHC+VhqtQW7yQN/ZhSzWdCjZBSbkKMqME0dn5ZKWxzYfp+BfE55MIPI1DQd1GsZhG/rbmMV2rFywf5xfhD82gTncdRbvpX7ew9tw3NFo8XNPD0HvYeh9jr+oKCoUk9HbvCTYg9GIKwecfYLk4BpmuH+sERhy33SK5APrc4KzK7IGkoQdlNQxKqmgUi0wo5BuRX24Iq+kb6VptqrbHig07jFhboUeF/EyCC2g5fw/J5HdMRj9j6NFbmJxBbNxJZi3qCOnGu+gcwpEYBkYmoLLcRUl1ZpkG5g4WFr6lht/A3heE4qTvPwuo1bhWswGRqVkMP3iNdtc4arQD2JzaFddwqMn5rF5/CZWKDvD3nwZffgrrhWS0tJLKY+sy6toqRZM7Jj7smJSonBAebEPZPityeeoZLuBPoaj032DfjfgYkyvRXljDFf4OgvgBEmSTQJw3BYcAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="toolStripSeparator16.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="toolStripSeparator8.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAGAAAACw==</value>
+  </data>
+  <data name="toolStripSeparator13.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="menu_EditFinedNext.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAcgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;menu_EditCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditCopy.Name" xml:space="preserve">
+    <value>menu_EditCopy</value>
+  </data>
+  <data name="toolStripSeparator10.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPYAAAAGAAAACw==</value>
+  </data>
+  <data name="menu_ComPortSet.Text" xml:space="preserve">
+    <value>COMポート設定(&amp;C)...</value>
+  </data>
+  <data name="menu_ComPortSet.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOkAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_EditCopy.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAVQIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAepJREFUOE+9kd9LU2Ech/enlDIkuwlid91ElCkFBokXFQSZdLULveoqMgwymbHA6VxYs5RtdqYnIl2kTF1Lk5lz/Zq0DHKDqezock7P7Gnn3WxiuC6CHvjcvOf9PF++59X9M/LYJ7RIoyERx1CAHvkNdzvlyvyV4mjlvdgH/dQ3PcFQVXckf21/3COhfC1HZvsn7b0v8fhCXGho+7vEMTwjip4wSO8gGFG4b3+BNKHgGkvg9CZ4OJzAPLAicql18Vi+mqNH9guBxuZWBmUtTTSeFIK9NPctYbjq42j9eEFic3nFx27fFqYhhZvSIo2PIvS+Whbnu2mwxpEnFQ7XDlJeI+ckluy+2t7rKZWlRIqF6CofIsvYnsdEqUXKiATnV7lsilFe+4xD5/spq36MEGj7bqTV35ONtjDXLO+551wQgh2UHyrz3zfwza1hlabRn31QECjJNB+/xpn5HMUf/Mbo2y80deee90ZfEqMlxsXWMOduzYpYpSn0VR0FgaHyyh9pNM8KgZpdL55QmYusMxJQcI+v0Nnvp7TCnBPsR13zpBDsnryTDtdrSk6aigtqrntJbW5jGwjQ5Z7G+nRKTNbKFscEB0/cKS6oMHqyf9spUlZtR3+mi9LT7ZScasuWWzhw/HZxwX9Cp/sF8dnaq8iJ4DgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="menuStrip1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI4DAAAaAAAACw==</value>
+  </data>
+  <data name="toolStripSeparator9.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALwAAAAGAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChDown.Name" xml:space="preserve">
+    <value>menu_EditChDown</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator12.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYAAAAZAAAACw==</value>
+  </data>
+  <data name="toolStrip_ComRead.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Name" xml:space="preserve">
+    <value>toolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_EditChDown.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditChDown.Text" xml:space="preserve">
+    <value>下へ移動(&amp;B)</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Name" xml:space="preserve">
+    <value>toolStripSeparator17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator6.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAGAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
+    <value>toolStripSeparator14</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator5.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAGAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChDelete.Name" xml:space="preserve">
+    <value>menu_EditChDelete</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_Com.Name" xml:space="preserve">
+    <value>menu_Com</value>
+  </data>
+  <data name="&gt;&gt;menu_Com.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_FileExport.Text" xml:space="preserve">
+    <value>エクスポート(&amp;E)...</value>
+  </data>
+  <data name="menu_FileExport.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Name" xml:space="preserve">
+    <value>toolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator7.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPAAAAAGAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditChDown.Text" xml:space="preserve">
+    <value>下へ移動</value>
+  </data>
+  <data name="toolStrip_EditChDown.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditAddFreq.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditAddFreq.Text" xml:space="preserve">
+    <value>周波数帯追加(&amp;A)...</value>
+  </data>
+  <data name="toolStripSeparator2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMcAAAAGAAAACw==</value>
+  </data>
+  <data name="menu_EditUndo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStrip_FilePrint.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPYAAAAGAAAACw==</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolStrip_FileSave.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAngIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAjNJREFUOE+tkutL01EYx3//Qu97E/SitzU1hmuxGvzKNZRlw7Aiuv3CW2m6zAsplqZRywtkK1w6abWahJOKvIApYiKLpWhl5oqmOLyiE8Hg23nOfnmyohfRA8+bw/l8znku0n+J588ioPS1LqHFu4iH7jk0NYZx1zGFutqvsN8M4lrFOEpLPqCwYAR5uUM4fy4AFZckArs6gdqaVfwtVlbXYErpwuGUpzxVXJK8Txa4oKpyXr36exAcnlvBbssLaDQKrIc8QuB+MMsFpSWT6vWN8QP+FFpAjNmHgksTOGhpFgJnwzQXXLR9VBERP8Nvx8LYJnuRkz2KpESnENTfDnFBVuaQikXjV7gvEMJmgxuKMgiz2SEENdVfuEA5M6iif4Y7Bz5jU3wjjhx9hYSEOiG4XjWBjnawUQLHT76G9Vgv7zY1jGqmb9PLUbgbydaXkGW7EFwpG0ObD2wHgGbXNzb3ZVSUz/CmUsOo5oz0wDp8IKkVRmOlEBQVjsLzCLjvXGOLE4EpNXtDWk7YkJpWHIUTGbzfA4OhTAhsecMMBqpvRfjLBLFjxOhk+N9PY3h8BkruVew1tXBYt8cFvb5YCGgtHXew/m0SEHw2/wbeBWcRnFrEhct2xBpcDG5C7K570MXnC0FG+htW9xKHtxo92LJDxuO2Hvja+9DRPYDefj/2ma3Q6BsQx+Dt2npotTlCkJnmTz59qoevJ20YLQnNmUZF3aaGUc30KiXBO+OyhODfQ5K+A0JWOr6CUjSGAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="menu_FileInport.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_FileInport.Text" xml:space="preserve">
+    <value>インポート(&amp;I)...</value>
+  </data>
+  <data name="toolStrip_EditPaste.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_EditPaste.Text" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="menu_FileSave.Text" xml:space="preserve">
+    <value>上書き保存(&amp;S)</value>
+  </data>
+  <data name="menu_FileSave.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPkAAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menu_EditChClear.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditChClear.Text" xml:space="preserve">
+    <value>チャンネルクリア(&amp;L)</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AdmsForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditSort.Text" xml:space="preserve">
+    <value>ソート</value>
+  </data>
+  <data name="toolStrip_EditSort.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStripSeparator3.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOYAAAAGAAAACw==</value>
+  </data>
+  <data name="toolStrip_FileNew.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_FileNew.Text" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditSort.Name" xml:space="preserve">
+    <value>toolStrip_EditSort</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditSort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_EditPaste.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAVgACAAs=</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="toolStrip1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI4DAAAZAAAACw==</value>
+  </data>
+  <data name="menu_EditChInsert.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditChInsert.Text" xml:space="preserve">
+    <value>チャンネル挿入(&amp;I)</value>
+  </data>
+  <data name="menu_SetMode.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMoAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_SetMode.Text" xml:space="preserve">
+    <value>セットモード設定(&amp;C)...</value>
+  </data>
+  <data name="&gt;&gt;menu_EditFined.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditFined.Name" xml:space="preserve">
+    <value>menu_EditFined</value>
+  </data>
+  <data name="toolStrip_FilePrint.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABcAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_FilePrint.Text" xml:space="preserve">
+    <value>印刷</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStrip_EditPaste.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA0gIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAmdJREFUOE+1kl1Ik1Ecxl/owm6KPqirrgqimygqqC5aFGqhs4WRmJG2iE1J22xp20gtTdG1zzRtRnMb06auEqVJ0RAajr41tkUfEjkj17L2bm5+ZPH0vmcbNjCCoAceDpxznt//f/4c6r/I2VcHx61q9LTJcLogc2t8e2HZLCqJzaJBwm2qowj62xHxX4fPq0S5IB2aWgmuKuTQ1ZZBW1ueFo/GxIam6W7MhrowHeyAuUWC6IQJEiHP82pQivPFXEj52+B3FmDCvhai/AOIR2NiAWx4NmRFc90xDLmUoD82Ytwrx3vXCfS28iDM46C9Yg2eaygUHclMBnSZVDEAfROKinxUSXIhL8nBuaJsSAQ8iPlcFOalQitaRwC5GZxkQIdBgRm6EzMBPaJj9Qi8LIHHtJLYbVyBoZYleKJLIWHWqTs3JwPM+jpMBdowNVqD6OtTiLw4BLpvKdRGO+r1PbhwpRNShRni6lYIZTrklzYkAwxN1Zj06RDxCjD5lIvwwy34fGcVCSc0O/cDwdA0RseDyCm8iKzj8nlIq7oS9JsahB+nIzywEaH+1fAZKVKZleG2k1hvdcA94ifh+4Me7MvmxyBNDTJ8HT6LkGMD6LvLEehOwcgNirT9fe4nvoWZyp+CcL/zwzX8ARl5YqQz4b37D4Kzazco7aUyBB4VMuFl+GJbjDHLIniaKYiYN7NtJzq4xnTQaO5H74CHrKx3bFoP6nJVKfkgiSknLGAG9nvlB663JNx9bwhW+7N5gLLiTJq68iTzw3jgZ6cha892csBOm31zotpCJoA/6TAzbfbC3xy//q+iqF8bjfXbTiI/PQAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="&gt;&gt;menu_EditUndo.Name" xml:space="preserve">
+    <value>menu_EditUndo</value>
+  </data>
+  <data name="&gt;&gt;menu_EditUndo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChInsert.Name" xml:space="preserve">
+    <value>menu_EditChInsert</value>
+  </data>
+  <data name="&gt;&gt;menu_EditChInsert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusLabel.Name" xml:space="preserve">
+    <value>StatusLabel</value>
+  </data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value>
+  </data>
+  <data name="&gt;&gt;menu_FileExport.Name" xml:space="preserve">
+    <value>menu_FileExport</value>
+  </data>
+  <data name="&gt;&gt;menu_FileExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileSave.Name" xml:space="preserve">
+    <value>toolStrip_FileSave</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_FileSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_ComRead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_ComRead.Name" xml:space="preserve">
+    <value>menu_ComRead</value>
+  </data>
+  <data name="toolStrip_EditCut.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAMgIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAcdJREFUOE9jIAb8//+fBcokDFZs2Nc9e+m6J1Auw79///Rv3nz6rrp10gaoEH4wec5qk/r6+n9VLTMkQfyv37+3gvjJOZUxYAXEgPrZK39NnrNqMdDp/I9evHmZll/zT5yfXxEqTRgs27jrU9fkKT+Pn77YcPDYud/29vZ/hYQ4paHShMH8lds2g5zdO3Xh/nIg7eMX/QoqRRzonLjAsQTk77y6fyDb3byDVkGliAcJefXvwhIK/2ul1f/xi2+NgAoTBlHtb3Uj2l9vtm9+8NO75MRan/izv/3yz3/3Lj093yVrlxdUGXYQ0f7KMLLr3Wf/hvPfLQOnfTH167rrlrfvjX/11f+u2Tv/W8XMnwBVih2Etj7bENb29L9j2ob/pkH1P0yCerd4l2z65VVyRcIpfWOCiU/9L6hS7MCn/tGv4Kb7hvYpWwwkgYotQnqFfKqv/vKqOm9gFjEtW94h/jdUKXbgU3/vl3/JFQO7pNVJIANAYp5Fx8/aJa36r2mT/F9GXukLWCEu4F158Zx90ur/xgFd/9WNwh4DhZjtU1ZHqpokvFM3D39v7NeWAVGJAzhlbI4wCpn0WNUk9p2BV1UeVJiWgIEBAHSKyPLyzrlpAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="&gt;&gt;menu_SetToolbar.Name" xml:space="preserve">
+    <value>menu_SetToolbar</value>
+  </data>
+  <data name="&gt;&gt;menu_SetToolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_EditCut.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAWAACAAs=</value>
+  </data>
+  <data name="&gt;&gt;menu_FileEnd.Name" xml:space="preserve">
+    <value>menu_FileEnd</value>
+  </data>
+  <data name="&gt;&gt;menu_FileEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_SetStatusbar.Text" xml:space="preserve">
+    <value>ステータスバー(&amp;S)</value>
+  </data>
+  <data name="menu_SetStatusbar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMoAAAAWAAAACw==</value>
+  </data>
+  <data name="menuStrip1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;menu_EditCut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_EditCut.Name" xml:space="preserve">
+    <value>menu_EditCut</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menu_ComPortSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu_ComPortSet.Name" xml:space="preserve">
+    <value>menu_ComPortSet</value>
+  </data>
+  <data name="toolStrip_EditChUp.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditPaste.Name" xml:space="preserve">
+    <value>toolStrip_EditPaste</value>
+  </data>
+  <data name="&gt;&gt;toolStrip_EditPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menu_EditChDelete.Text" xml:space="preserve">
+    <value>チャンネル削除(&amp;D)</value>
+  </data>
+  <data name="menu_EditChDelete.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditUndo.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditUndo.Text" xml:space="preserve">
+    <value>元に戻す(&amp;Z)</value>
+  </data>
+  <data name="menu_EditChMove.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditChMove.Text" xml:space="preserve">
+    <value>チャンネル移動(&amp;G)...</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value>
+  </data>
+  <data name="menu_EditSort.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPMAAAAWAAAACw==</value>
+  </data>
+  <data name="menu_EditSort.Text" xml:space="preserve">
+    <value>ソート(&amp;S)...</value>
+  </data>
+  <data name="toolStrip_FileNew.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="menu_FileNew.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAATgACAAs=</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menu_Help.Text" xml:space="preserve">
+    <value>バージョン(&amp;V)</value>
+  </data>
+  <data name="menu_Help.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGIAAAAWAAAACw==</value>
+  </data>
+  <data name="toolStrip_EditSort.ImageTransparentColor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwIAAAAKAAAAAAAAAABrAAEACw==</value>
+  </data>
+  <data name="menu_HelpVersion.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)...</value>
+  </data>
+  <data name="menu_HelpVersion.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAL4AAAAWAAAACw==</value>
+  </data>
+  <data name="menu_FileNameSave.ShortcutKeys" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABlTeXN0ZW0uV2luZG93cy5Gb3Jtcy5LZXlzAQAAAAd2YWx1ZV9fAAgCAAAAQQACAAs=</value>
+  </data>
+  <data name="menu_Com.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD4AAAAWAAAACw==</value>
+  </data>
+</root>

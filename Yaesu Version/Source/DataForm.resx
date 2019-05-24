@@ -1,0 +1,3736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;col_Wx_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank6.Name" xml:space="preserve">
+    <value>col_Normal_Bank6</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_Ams.Name" xml:space="preserve">
+    <value>col_Wx_Ams</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank9.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="col_Pmf_Bell.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank9.Name" xml:space="preserve">
+    <value>col_Pmf_Bank9</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="col_Vfo_Bank2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Bank6.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_HarfDev.Name" xml:space="preserve">
+    <value>col_Skip_HarfDev</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_HarfDev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank24.Name" xml:space="preserve">
+    <value>col_Normal_Bank24</value>
+  </data>
+  <data name="col_Home_Att.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank5.Name" xml:space="preserve">
+    <value>col_Normal_Bank5</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank8.Name" xml:space="preserve">
+    <value>col_Pmf_Bank8</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tab_Normal.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="col_Home_Smeter.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Step.Name" xml:space="preserve">
+    <value>col_Normal_Step</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_Pms.Name" xml:space="preserve">
+    <value>dgv_Pms</value>
+  </data>
+  <data name="&gt;&gt;dgv_Pms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank8.Name" xml:space="preserve">
+    <value>col_Normal_Bank8</value>
+  </data>
+  <data name="tab_Vfo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn423.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="col_Skip_TxOutput.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="col_Skip_Bank16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Home.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank7.Name" xml:space="preserve">
+    <value>col_Normal_Bank7</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Vibrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Vibrator.Name" xml:space="preserve">
+    <value>col_Pmf_Vibrator</value>
+  </data>
+  <data name="col_Home_Bank5.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="col_Vfo_Bank21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank6.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DcsCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DcsCode.Name" xml:space="preserve">
+    <value>col_Skip_DcsCode</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Smeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Smeter.Name" xml:space="preserve">
+    <value>col_Skip_Smeter</value>
+  </data>
+  <data name="col_Home_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="col_Skip_Smeter.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Mode.Name" xml:space="preserve">
+    <value>col_Skip_Mode</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_TxFrq.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn186.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="col_Skip_MemName.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="&gt;&gt;col_Home_AutoMode.Name" xml:space="preserve">
+    <value>col_Home_AutoMode</value>
+  </data>
+  <data name="&gt;&gt;col_Home_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_PrTone.Name" xml:space="preserve">
+    <value>col_Vfo_PrTone</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_PrTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank9.Name" xml:space="preserve">
+    <value>col_Normal_Bank9</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tab_Wx.Name" xml:space="preserve">
+    <value>tab_Wx</value>
+  </data>
+  <data name="&gt;&gt;tab_Wx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank23.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="col_Home_Bank20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank16.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="col_Pmf_Bank14.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Step.Name" xml:space="preserve">
+    <value>col_Vfo_Step</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank7.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="tab_Pms.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn185.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank20.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_TxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_TxOutput.Name" xml:space="preserve">
+    <value>col_Skip_TxOutput</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn189.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="tab_Home.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="col_Pmf_Bank6.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="col_Home_Bank12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tabc_DataForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="col_Skip_HarfDev.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Smeter.Name" xml:space="preserve">
+    <value>col_Pmf_Smeter</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Smeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_MemDel.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="&gt;&gt;tabc_DataForm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank1.Name" xml:space="preserve">
+    <value>col_Pmf_Bank1</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_PrTone.Name" xml:space="preserve">
+    <value>col_Normal_PrTone</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_PrTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_Bell.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Skip.Name" xml:space="preserve">
+    <value>col_Pmf_Skip</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bell.Name" xml:space="preserve">
+    <value>col_Home_Bell</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn407.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ToneFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ToneFrq.Name" xml:space="preserve">
+    <value>col_Home_ToneFrq</value>
+  </data>
+  <data name="col_Home_Bank15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Comment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank3.Name" xml:space="preserve">
+    <value>col_Pmf_Bank3</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Mode.Name" xml:space="preserve">
+    <value>col_Pmf_Mode</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn421.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="col_Home_SqlType.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="dgv_Home.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dgv_Home.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="col_Skip_SqlType.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn432.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn432.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn432</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank2.Name" xml:space="preserve">
+    <value>col_Pmf_Bank2</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Ams.Name" xml:space="preserve">
+    <value>col_Home_Ams</value>
+  </data>
+  <data name="&gt;&gt;dgv_Wx.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="col_Pmf_Ch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Ch.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="col_Normal_Bank2.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="col_Pmf_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_TxFrq.Name" xml:space="preserve">
+    <value>col_Skip_TxFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_TxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Wx_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAH4EAAACAAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6+zsBdvb3BWFhYU3QkJDpkBERehAQUHwQkBA7kJAQOpAPz7wPz497zEwL9ceHR1xAAAAAAAAAADt7e8C2NjYItLS0WfLy8ifnp6cwVdaXe1PYmj/WmRm/2RkY/5kZGT/YmRk/2VmZv9KSkr4ICAgoQAAAADm5uYG3d3cSN/f3rLl5eTv2trT/qWknf9eX2D/XGdq/2Vub/9qcHD/aG9v/2hvcP9qcHH/TlBU+SAgIqfz9PUE2tnYRdra1snu7ev8+/v6/+vr5P+gn5f/UlRW/0xgZP9YaGn/YWpr/11oaf9eaGn/XWhp/0ZMT/kfICGm3d3cK8rJx7LIx7/+4eDZ//j49f/y8u7/mZiS/0xMTf9HWl//RVZa/01QUP9MTk//UVRU/1BUVf86PDz7Hh4dwdHRz3m9vLnstbSv/8bEvf/l5N7/8vLu/5+emv9UVFX/VGVr/1ZkaP9UU1T/UE9P/1pYWf9bWVr/Pz4+/iYmJeXHxsXEt7a0/LSyr/+2tbH/yMfB/9/f2f+enZv/VVZW/1BfY/9QXGD/UVFS/05NTv9WVVb/V1ZX/0A/P/8wLy7otLPH7Kalvf+np7r/qam5/62uuP+9vsD/mZiX/VdXV/5YYGL/WmBi/1NSU/9OTU7/V1VX/1dWWP9APz//MC8v7ZCf1fl5kNX/epbS/32fz/+ApsP/m621/ouLi/VQT0/7VVNU/1VSU/9KSEn/RkRF/01LTP9PTk//Pj09/zAwL+t+s9nwYbHa/2G60f9owcL/fb2m/46ei/9nZGL8SUhI/kBDR/8zQ0n/JzpA/yQ0Of8rPUP/LDg+/y4uMP8wLy7phdHMyGfXvfxx1qT/j8mJ/6qpef+jjH3/ZF1d/0tJSf82Ul3/G4il/w+Kqf8OfZj/EoKe/xNke/8fJyv/Li0s55jVtIKM1pPvpMV1/7uha/+2i33/q5ib/29tbf9LSUn/Nlxq/xyhxv8Wo8f/E5q7/w6Ts/8PaoP/HScr/y8uLee4zq0wwMKGuMebav25gHX/r5Sb/7m1t/+OjYz/VFNU/z9JT/84Xmr/PWp0/zdlbf8hT1j/GTQ9/yQmKP41NDPjx8u/Bc2vmE/AjYbTrYqS/reutP/FxcX/rays/3Nycv9WVFX/VFxZ/2V+dP9deGz+R1tT/khKSf8+PT3yMzMynAAAAADCsbsHuKWrT7ettLjFw8Xvy8vK/MnJyP+enp3/TEtL/2lravrHzcveqbGtsk5SUN1EREP6NjU1xysqKjsAAAAAAAAAALvExwXEw8UvysnJgMvLy8bNzc3tpaWk+EdGRf5OTk3RxsXGX56cnC5APz+CQ0JCqzc2NnM2NjYR8AAAAMAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAAs=</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DataForm</value>
+  </data>
+  <data name="tab_Pms.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="col_Skip_Comment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank5.Name" xml:space="preserve">
+    <value>col_Pmf_Bank5</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_Skip.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="tab_Skip.Text" xml:space="preserve">
+    <value>SKIP</value>
+  </data>
+  <data name="col_Skip_Bank8.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ShiftDir.Name" xml:space="preserve">
+    <value>col_Pmf_ShiftDir</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ShiftDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank2.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn430.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn430.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn430</value>
+  </data>
+  <data name="col_Normal_Vibrator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank4.Name" xml:space="preserve">
+    <value>col_Pmf_Bank4</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DcsDim.Name" xml:space="preserve">
+    <value>col_Pmf_DcsDim</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DcsDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_ShiftDir.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="col_Normal_DscDim.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn434.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank7.Name" xml:space="preserve">
+    <value>col_Pmf_Bank7</value>
+  </data>
+  <data name="&gt;&gt;tabc_DataForm.Name" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn433.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn433.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn433</value>
+  </data>
+  <data name="&gt;&gt;tabc_DataForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Vibrator.Name" xml:space="preserve">
+    <value>col_Home_Vibrator</value>
+  </data>
+  <data name="col_Normal_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Vibrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_ShiftDir.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_AutoStep.Name" xml:space="preserve">
+    <value>col_Pms_AutoStep</value>
+  </data>
+  <data name="tab_Normal.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="col_Skip_Bank2.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="col_Pmf_Bank23.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn432.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank6.Name" xml:space="preserve">
+    <value>col_Pmf_Bank6</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_ShiftDir.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="col_Vfo_Vibrator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_RxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_RxFrq.Name" xml:space="preserve">
+    <value>col_Pmf_RxFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank8.Name" xml:space="preserve">
+    <value>col_Home_Bank8</value>
+  </data>
+  <data name="col_Normal_Bank14.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="&gt;&gt;col_Home_TxFrq.Name" xml:space="preserve">
+    <value>col_Home_TxFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Home_TxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn431.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn431.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn431</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_MemName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_MemName.Name" xml:space="preserve">
+    <value>col_Pmf_MemName</value>
+  </data>
+  <data name="col_Vfo_Ch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_ToneFrq.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="col_Pmf_Bank10.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn434.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn434.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn434</value>
+  </data>
+  <data name="&gt;&gt;dgv_Skip.Parent" xml:space="preserve">
+    <value>tab_Skip</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Att.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Att.Name" xml:space="preserve">
+    <value>col_Normal_Att</value>
+  </data>
+  <data name="col_Vfo_Bank8.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="col_Home_Bank19.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="col_Pmf_Bank2.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn415.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="col_Vfo_Bank6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank9.Name" xml:space="preserve">
+    <value>col_Home_Bank9</value>
+  </data>
+  <data name="&gt;&gt;dgv_Wx.Parent" xml:space="preserve">
+    <value>tab_Wx</value>
+  </data>
+  <data name="col_Pmf_Bank12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn188.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Att.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_TxOtput.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Att.Name" xml:space="preserve">
+    <value>col_Pmf_Att</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Ams.Name" xml:space="preserve">
+    <value>col_Vfo_Ams</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn195.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn195.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn195</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank4.Name" xml:space="preserve">
+    <value>col_Home_Bank4</value>
+  </data>
+  <data name="tab_Normal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Home_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_AutoStep.Name" xml:space="preserve">
+    <value>col_Home_AutoStep</value>
+  </data>
+  <data name="col_Home_TxOutput.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Skip.Name" xml:space="preserve">
+    <value>col_Skip_Skip</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn435.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn435.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn435</value>
+  </data>
+  <data name="col_Pmf_Bank7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_DcsDim.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="tab_Wx.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="col_Pmf_Bank2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Bank5.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="col_Pmf_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="col_Home_Bank13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Tag.Name" xml:space="preserve">
+    <value>col_Vfo_Tag</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank4.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Mode.Name" xml:space="preserve">
+    <value>col_Vfo_Mode</value>
+  </data>
+  <data name="col_Skip_Bank12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn193.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn193.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn193</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_MemDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_MemDel.Name" xml:space="preserve">
+    <value>col_Vfo_MemDel</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn424.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank6.Name" xml:space="preserve">
+    <value>col_Home_Bank6</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ToneFrq.Name" xml:space="preserve">
+    <value>col_Normal_ToneFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ToneFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABsDAADbAQAACw==</value>
+  </data>
+  <data name="col_Skip_Bank19.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="col_Normal_Step.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_TxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_TxFrq.Name" xml:space="preserve">
+    <value>col_Normal_TxFrq</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn194.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn194.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn194</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank5.Name" xml:space="preserve">
+    <value>col_Home_Bank5</value>
+  </data>
+  <data name="col_Skip_Bank23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Skip.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="col_Skip_Bank17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn191.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn191.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn191</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn193.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="col_Normal_Smeter.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="col_Home_Bank21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Skip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank6.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="col_Home_Bank24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Ch.Name" xml:space="preserve">
+    <value>col_Home_Ch</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Ch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Skip.Name" xml:space="preserve">
+    <value>col_Vfo_Skip</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DigAnalog.Name" xml:space="preserve">
+    <value>col_Normal_DigAnalog</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn192.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn192.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn192</value>
+  </data>
+  <data name="col_Vfo_RxFrq.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank7.Name" xml:space="preserve">
+    <value>col_Home_Bank7</value>
+  </data>
+  <data name="col_Skip_TxFrq.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="col_Wx_Ams.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn430.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ClockShift.Name" xml:space="preserve">
+    <value>col_Home_ClockShift</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ClockShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank2.Name" xml:space="preserve">
+    <value>col_Home_Bank2</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank20.Name" xml:space="preserve">
+    <value>col_Skip_Bank20</value>
+  </data>
+  <data name="col_Normal_HarfDev.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank23.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="tabc_DataForm.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tabc_DataForm.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABsDAADbAQAACw==</value>
+  </data>
+  <data name="col_Home_TxFrq.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn190.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn190.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn190</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ToneFrq.Name" xml:space="preserve">
+    <value>col_Pmf_ToneFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ToneFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_TxOutput.Name" xml:space="preserve">
+    <value>col_Pmf_TxOutput</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_TxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_MemName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank1.Name" xml:space="preserve">
+    <value>col_Home_Bank1</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank11.Name" xml:space="preserve">
+    <value>col_Normal_Bank11</value>
+  </data>
+  <data name="dgv_Vfo.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="col_Normal_Bank10.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="col_Pmf_ShiftDir.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DigAnalog.Name" xml:space="preserve">
+    <value>col_Skip_DigAnalog</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank22.Name" xml:space="preserve">
+    <value>col_Skip_Bank22</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank18.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="col_Wx_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="col_Skip_Bank9.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="col_Skip_Bank22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Normal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Smeter.Name" xml:space="preserve">
+    <value>col_Normal_Smeter</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Smeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank3.Name" xml:space="preserve">
+    <value>col_Home_Bank3</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank21.Name" xml:space="preserve">
+    <value>col_Skip_Bank21</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank13.Name" xml:space="preserve">
+    <value>col_Normal_Bank13</value>
+  </data>
+  <data name="col_Pmf_Bank23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Vibrator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn88.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_HarfDev.Name" xml:space="preserve">
+    <value>col_Home_HarfDev</value>
+  </data>
+  <data name="col_Vfo_ShiftFrq.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="&gt;&gt;col_Home_HarfDev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Ch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Ch.Name" xml:space="preserve">
+    <value>col_Normal_Ch</value>
+  </data>
+  <data name="col_Vfo_Step.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="col_Pmf_Bank7.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_Tag.Name" xml:space="preserve">
+    <value>col_Wx_Tag</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn89.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn411.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank24.Name" xml:space="preserve">
+    <value>col_Skip_Bank24</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_Comment.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="col_Home_Mode.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank10.Name" xml:space="preserve">
+    <value>col_Normal_Bank10</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_Pms.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DigAnalog.Name" xml:space="preserve">
+    <value>col_Pmf_DigAnalog</value>
+  </data>
+  <data name="col_Vfo_Skip.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="col_Vfo_MemDel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Bank7.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank23.Name" xml:space="preserve">
+    <value>col_Skip_Bank23</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank15.Name" xml:space="preserve">
+    <value>col_Normal_Bank15</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DscCode.Name" xml:space="preserve">
+    <value>col_Normal_DscCode</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DscCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_Bank1.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Mode.Name" xml:space="preserve">
+    <value>col_Home_Mode</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Normal.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank12.Name" xml:space="preserve">
+    <value>col_Normal_Bank12</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank3.Name" xml:space="preserve">
+    <value>col_Skip_Bank3</value>
+  </data>
+  <data name="col_Pmf_Bank22.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="tabc_DataForm.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DcsCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn420.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DcsCode.Name" xml:space="preserve">
+    <value>col_Home_DcsCode</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ShiftFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ShiftFrq.Name" xml:space="preserve">
+    <value>col_Vfo_ShiftFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_Skip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank17.Name" xml:space="preserve">
+    <value>col_Normal_Bank17</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn187.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn187.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn187</value>
+  </data>
+  <data name="col_Skip_DcsDim.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="col_Normal_Bank24.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank2.Name" xml:space="preserve">
+    <value>col_Skip_Bank2</value>
+  </data>
+  <data name="&gt;&gt;tab_Pms.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bell.Name" xml:space="preserve">
+    <value>col_Normal_Bell</value>
+  </data>
+  <data name="col_Pmf_Skip.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn407.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn407.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn407</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_MemName.Name" xml:space="preserve">
+    <value>col_Skip_MemName</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_MemName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_Bank15.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn186.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn186.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn186</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank14.Name" xml:space="preserve">
+    <value>col_Normal_Bank14</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn191.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank1.Name" xml:space="preserve">
+    <value>col_Skip_Bank1</value>
+  </data>
+  <data name="col_Pmf_Bank22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DcsCode.Name" xml:space="preserve">
+    <value>col_Vfo_DcsCode</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DcsCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn408.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn408.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn408</value>
+  </data>
+  <data name="col_Home_Bell.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Normal_MemDel.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank24.Name" xml:space="preserve">
+    <value>col_Vfo_Bank24</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank19.Name" xml:space="preserve">
+    <value>col_Normal_Bank19</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn185.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn185.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn185</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn184.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank16.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn409.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn407.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn409.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn409</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank23.Name" xml:space="preserve">
+    <value>col_Vfo_Bank23</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn184.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn184.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn184</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank16.Name" xml:space="preserve">
+    <value>col_Normal_Bank16</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank24.Name" xml:space="preserve">
+    <value>col_Home_Bank24</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn414.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank7.Name" xml:space="preserve">
+    <value>col_Skip_Bank7</value>
+  </data>
+  <data name="tab_Wx.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="col_Wx_AutoMode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn409.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank22.Name" xml:space="preserve">
+    <value>col_Vfo_Bank22</value>
+  </data>
+  <data name="col_Wx_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn183.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn183.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn183</value>
+  </data>
+  <data name="col_Home_ClockShift.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank23.Name" xml:space="preserve">
+    <value>col_Home_Bank23</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv_Pms.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank6.Name" xml:space="preserve">
+    <value>col_Skip_Bank6</value>
+  </data>
+  <data name="col_Vfo_Bank22.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="&gt;&gt;dgv_Pms.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank21.Name" xml:space="preserve">
+    <value>col_Vfo_Bank21</value>
+  </data>
+  <data name="col_Pmf_Bank15.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank18.Name" xml:space="preserve">
+    <value>col_Normal_Bank18</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank22.Name" xml:space="preserve">
+    <value>col_Home_Bank22</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv_Wx.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank5.Name" xml:space="preserve">
+    <value>col_Skip_Bank5</value>
+  </data>
+  <data name="col_Skip_Skip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank20.Name" xml:space="preserve">
+    <value>col_Vfo_Bank20</value>
+  </data>
+  <data name="col_Vfo_HarfDev.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank21.Name" xml:space="preserve">
+    <value>col_Home_Bank21</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank4.Name" xml:space="preserve">
+    <value>col_Skip_Bank4</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_AutoMode.Name" xml:space="preserve">
+    <value>col_Wx_AutoMode</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn192.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tab_Skip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="col_Pmf_ClockShift.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank20.Name" xml:space="preserve">
+    <value>col_Home_Bank20</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank3.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="col_Vfo_Bank9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Tag.Name" xml:space="preserve">
+    <value>col_Home_Tag</value>
+  </data>
+  <data name="col_Skip_ClockShift.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_MemDel.Name" xml:space="preserve">
+    <value>col_Skip_MemDel</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_MemDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ShiftFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ShiftFrq.Name" xml:space="preserve">
+    <value>col_Pmf_ShiftFrq</value>
+  </data>
+  <data name="col_Normal_DscCode.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="col_Normal_Bank3.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank9.Name" xml:space="preserve">
+    <value>col_Skip_Bank9</value>
+  </data>
+  <data name="tab_Vfo.Text" xml:space="preserve">
+    <value>VFO</value>
+  </data>
+  <data name="tab_Vfo.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;tab_Pms.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="col_Pmf_Bank9.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="&gt;&gt;tab_Skip.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="col_Vfo_Bank1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank8.Name" xml:space="preserve">
+    <value>col_Skip_Bank8</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_RxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_RxFrq.Name" xml:space="preserve">
+    <value>col_Vfo_RxFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DcsDim.Name" xml:space="preserve">
+    <value>col_Vfo_DcsDim</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DcsDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Wx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="col_Home_Bank3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="&gt;&gt;tab_Normal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank18.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="&gt;&gt;tab_Normal.Name" xml:space="preserve">
+    <value>tab_Normal</value>
+  </data>
+  <data name="col_Skip_Mode.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="col_Normal_Bank20.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="col_Pmf_Smeter.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn435.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_MemName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_MemName.Name" xml:space="preserve">
+    <value>col_Normal_MemName</value>
+  </data>
+  <data name="col_Normal_Bank11.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="&gt;&gt;tab_Normal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn433.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank22.Name" xml:space="preserve">
+    <value>col_Pmf_Bank22</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn195.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="dgv_Wx.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="col_Vfo_Bank20.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn87.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="&gt;&gt;tab_Home.Name" xml:space="preserve">
+    <value>tab_Home</value>
+  </data>
+  <data name="&gt;&gt;tab_Home.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank17.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="col_Home_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn90.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn90.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn90</value>
+  </data>
+  <data name="col_Vfo_Bank8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_PrTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_PrTone.Name" xml:space="preserve">
+    <value>col_Skip_PrTone</value>
+  </data>
+  <data name="&gt;&gt;tab_Skip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="col_Home_PrTone.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="col_Skip_Bank12.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="col_Pmf_Step.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="col_Skip_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn189.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn189.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn189</value>
+  </data>
+  <data name="dgv_Skip.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank20.Name" xml:space="preserve">
+    <value>col_Pmf_Bank20</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn88.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="col_Wx_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn410.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="col_Vfo_DcsDim.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="col_Pmf_DcsDim.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="col_Vfo_ToneFrq.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn188.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewComboBoxColumn188.Name" xml:space="preserve">
+    <value>dataGridViewComboBoxColumn188</value>
+  </data>
+  <data name="col_Normal_PrTone.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_PrTone.Name" xml:space="preserve">
+    <value>col_Pmf_PrTone</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_PrTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_ClockShift.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ShiftFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank23.Name" xml:space="preserve">
+    <value>col_Pmf_Bank23</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ShiftFrq.Name" xml:space="preserve">
+    <value>col_Normal_ShiftFrq</value>
+  </data>
+  <data name="col_Pmf_DcsCode.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="col_Skip_Bank23.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="col_Home_Bank18.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="dgv_Home.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="col_Pmf_Bank11.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="col_Skip_Ch.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="col_Pmf_Bank14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_MemDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_MemDel.Name" xml:space="preserve">
+    <value>col_Normal_MemDel</value>
+  </data>
+  <data name="col_Home_Bank2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank11.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="dgv_Vfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Comment.Name" xml:space="preserve">
+    <value>col_Home_Comment</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank21.Name" xml:space="preserve">
+    <value>col_Pmf_Bank21</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_AutoStep.Name" xml:space="preserve">
+    <value>col_Skip_AutoStep</value>
+  </data>
+  <data name="col_Normal_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Skip.Name" xml:space="preserve">
+    <value>col_Normal_Skip</value>
+  </data>
+  <data name="col_Skip_ShiftDir.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="col_Normal_ClockShift.HeaderText" xml:space="preserve">
+    <value>Clock Shift</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank24.Name" xml:space="preserve">
+    <value>col_Pmf_Bank24</value>
+  </data>
+  <data name="&gt;&gt;dgv_Pms.Parent" xml:space="preserve">
+    <value>tab_Pms</value>
+  </data>
+  <data name="col_Home_Bank3.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="col_Vfo_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="col_Vfo_Bank23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Att.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="col_Vfo_Bank1.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_AutoMode.Name" xml:space="preserve">
+    <value>col_Pms_AutoMode</value>
+  </data>
+  <data name="&gt;&gt;col_Home_TxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_TxOutput.Name" xml:space="preserve">
+    <value>col_Home_TxOutput</value>
+  </data>
+  <data name="col_Skip_Skip.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="col_Normal_Bank23.HeaderText" xml:space="preserve">
+    <value>BANK23</value>
+  </data>
+  <data name="col_Normal_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="&gt;&gt;col_Home_PrTone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_PrTone.Name" xml:space="preserve">
+    <value>col_Home_PrTone</value>
+  </data>
+  <data name="col_Skip_ShiftFrq.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="tab_Home.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank18.Name" xml:space="preserve">
+    <value>col_Pmf_Bank18</value>
+  </data>
+  <data name="col_Skip_Bank15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn193.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_ToneFrq.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="col_Normal_Bank8.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank19.Name" xml:space="preserve">
+    <value>col_Pmf_Bank19</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn192.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Step.Name" xml:space="preserve">
+    <value>col_Home_Step</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Smeter.Name" xml:space="preserve">
+    <value>col_Vfo_Smeter</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Smeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Att.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_AutoStep.Name" xml:space="preserve">
+    <value>col_Wx_AutoStep</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_MemName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_MemName.Name" xml:space="preserve">
+    <value>col_Vfo_MemName</value>
+  </data>
+  <data name="dgv_Wx.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ClockShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ClockShift.Name" xml:space="preserve">
+    <value>col_Normal_ClockShift</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bell.Name" xml:space="preserve">
+    <value>col_Pmf_Bell</value>
+  </data>
+  <data name="&gt;&gt;tab_Wx.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="col_Home_DcsCode.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn431.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ShiftDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ShiftDir.Name" xml:space="preserve">
+    <value>col_Home_ShiftDir</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Step.Name" xml:space="preserve">
+    <value>col_Skip_Step</value>
+  </data>
+  <data name="col_Skip_Vibrator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_SqlType.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="col_Skip_RxFrq.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="col_Vfo_Bank24.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="col_Home_Bank9.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="col_Pmf_Ch.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="col_Pmf_Bank13.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="col_Skip_PrTone.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="&gt;&gt;dgv_Normal.Parent" xml:space="preserve">
+    <value>tab_Normal</value>
+  </data>
+  <data name="col_Skip_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="col_Vfo_Tag.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Ch.Name" xml:space="preserve">
+    <value>col_Skip_Ch</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Ch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_MemDel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dgv_Skip.Name" xml:space="preserve">
+    <value>dgv_Skip</value>
+  </data>
+  <data name="&gt;&gt;dgv_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_Normal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="col_Skip_Bank24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Home.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="col_Home_Bank22.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="&gt;&gt;tab_Vfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Vfo.Name" xml:space="preserve">
+    <value>tab_Vfo</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Ch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Ch.Name" xml:space="preserve">
+    <value>col_Pmf_Ch</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn410.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn410.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn410</value>
+  </data>
+  <data name="col_Skip_Bank7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_SqlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_SqlType.Name" xml:space="preserve">
+    <value>col_Home_SqlType</value>
+  </data>
+  <data name="col_Home_RxFrq.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="col_Vfo_Bank13.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="col_Normal_Bank21.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="col_Pmf_PrTone.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Ch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Ch.Name" xml:space="preserve">
+    <value>col_Vfo_Ch</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank19.Name" xml:space="preserve">
+    <value>col_Vfo_Bank19</value>
+  </data>
+  <data name="col_Vfo_Bank15.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="col_Wx_DigAnalog.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank12.Name" xml:space="preserve">
+    <value>col_Skip_Bank12</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank10.Name" xml:space="preserve">
+    <value>col_Pmf_Bank10</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn412.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn412.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn412</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_SqlType.Name" xml:space="preserve">
+    <value>col_Pmf_SqlType</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_SqlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank13.Name" xml:space="preserve">
+    <value>col_Skip_Bank13</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank11.Name" xml:space="preserve">
+    <value>col_Pmf_Bank11</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank19.Name" xml:space="preserve">
+    <value>col_Home_Bank19</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_MemName.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_DigAnalog.Name" xml:space="preserve">
+    <value>col_Wx_DigAnalog</value>
+  </data>
+  <data name="&gt;&gt;col_Wx_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn411.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn411.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn411</value>
+  </data>
+  <data name="col_Home_Bank7.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn429.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ShiftFrq.Name" xml:space="preserve">
+    <value>col_Skip_ShiftFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank10.Name" xml:space="preserve">
+    <value>col_Skip_Bank10</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ShiftFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank12.Name" xml:space="preserve">
+    <value>col_Pmf_Bank12</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Ams.Name" xml:space="preserve">
+    <value>col_Pmf_Ams</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank5.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn86.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn414.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn414.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn414</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn183.HeaderText" xml:space="preserve">
+    <value>シフト方向</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank18.Name" xml:space="preserve">
+    <value>col_Vfo_Bank18</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank11.Name" xml:space="preserve">
+    <value>col_Skip_Bank11</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank13.Name" xml:space="preserve">
+    <value>col_Pmf_Bank13</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_AutoStep.Name" xml:space="preserve">
+    <value>col_Vfo_AutoStep</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn190.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="&gt;&gt;dgv_Home.Name" xml:space="preserve">
+    <value>dgv_Home</value>
+  </data>
+  <data name="&gt;&gt;dgv_Home.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn413.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn413.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn413</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank15.Name" xml:space="preserve">
+    <value>col_Vfo_Bank15</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pms_Tag.Name" xml:space="preserve">
+    <value>col_Pms_Tag</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_SqlType.Name" xml:space="preserve">
+    <value>col_Normal_SqlType</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_SqlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_HarfDev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_HarfDev.Name" xml:space="preserve">
+    <value>col_Vfo_HarfDev</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank16.Name" xml:space="preserve">
+    <value>col_Skip_Bank16</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank14.Name" xml:space="preserve">
+    <value>col_Pmf_Bank14</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank18.Name" xml:space="preserve">
+    <value>col_Home_Bank18</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn416.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn416.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn416</value>
+  </data>
+  <data name="col_Skip_Bank4.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ClockShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ClockShift.Name" xml:space="preserve">
+    <value>col_Vfo_ClockShift</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank17.Name" xml:space="preserve">
+    <value>col_Skip_Bank17</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank15.Name" xml:space="preserve">
+    <value>col_Pmf_Bank15</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Skip.Name" xml:space="preserve">
+    <value>col_Home_Skip</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Wx_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank15.Name" xml:space="preserve">
+    <value>col_Home_Bank15</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_Wx.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="col_Home_Bank20.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="col_Skip_Bank22.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_RxFrq.Name" xml:space="preserve">
+    <value>col_Skip_RxFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_RxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Comment.Name" xml:space="preserve">
+    <value>col_Normal_Comment</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_Home.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="col_Skip_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn415.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn415.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn415</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank17.Name" xml:space="preserve">
+    <value>col_Vfo_Bank17</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn184.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Tag.Name" xml:space="preserve">
+    <value>col_Normal_Tag</value>
+  </data>
+  <data name="col_Vfo_Bank4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Step.Name" xml:space="preserve">
+    <value>col_Pmf_Step</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Step.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank14.Name" xml:space="preserve">
+    <value>col_Skip_Bank14</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank16.Name" xml:space="preserve">
+    <value>col_Pmf_Bank16</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ShiftDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ShiftDir.Name" xml:space="preserve">
+    <value>col_Skip_ShiftDir</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Smeter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Smeter.Name" xml:space="preserve">
+    <value>col_Home_Smeter</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_HarfDev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_HarfDev.Name" xml:space="preserve">
+    <value>col_Normal_HarfDev</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_RxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_RxFrq.Name" xml:space="preserve">
+    <value>col_Normal_RxFrq</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn90.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="col_Pmf_Bank10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn418.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank21.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn418.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn418</value>
+  </data>
+  <data name="col_Vfo_Att.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="col_Skip_Bank17.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="col_Home_Bank6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank14.Name" xml:space="preserve">
+    <value>col_Vfo_Bank14</value>
+  </data>
+  <data name="col_Pmf_Bank16.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="col_Skip_Bank2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank15.Name" xml:space="preserve">
+    <value>col_Skip_Bank15</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Bank17.Name" xml:space="preserve">
+    <value>col_Pmf_Bank17</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank17.Name" xml:space="preserve">
+    <value>col_Home_Bank17</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ToneFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ToneFrq.Name" xml:space="preserve">
+    <value>col_Skip_ToneFrq</value>
+  </data>
+  <data name="col_Vfo_Smeter.HeaderText" xml:space="preserve">
+    <value>Sメータｰスケルチ</value>
+  </data>
+  <data name="col_Pmf_Bank5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn417.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn417.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn417</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank11.Name" xml:space="preserve">
+    <value>col_Vfo_Bank11</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn190.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Mode.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="tab_Home.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank14.Name" xml:space="preserve">
+    <value>col_Home_Bank14</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank2.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="col_Pmf_Bank15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ShiftDir.Name" xml:space="preserve">
+    <value>col_Normal_ShiftDir</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_ShiftDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank16.Name" xml:space="preserve">
+    <value>col_Vfo_Bank16</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_SqlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_SqlType.Name" xml:space="preserve">
+    <value>col_Skip_SqlType</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank11.Name" xml:space="preserve">
+    <value>col_Home_Bank11</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ClockShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_ClockShift.Name" xml:space="preserve">
+    <value>col_Pmf_ClockShift</value>
+  </data>
+  <data name="col_Pmf_MemName.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="dgv_Pms.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dgv_Pms.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;dgv_Normal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank11.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="&gt;&gt;dgv_Normal.Name" xml:space="preserve">
+    <value>dgv_Normal</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn419.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn419.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn419</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank13.Name" xml:space="preserve">
+    <value>col_Vfo_Bank13</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank18.Name" xml:space="preserve">
+    <value>col_Skip_Bank18</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Vfo_Bank17.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank16.Name" xml:space="preserve">
+    <value>col_Home_Bank16</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Pms.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="col_Skip_Bank11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Vibrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Vibrator.Name" xml:space="preserve">
+    <value>col_Vfo_Vibrator</value>
+  </data>
+  <data name="col_Vfo_Bank18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DcsDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DcsDim.Name" xml:space="preserve">
+    <value>col_Home_DcsDim</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank10.Name" xml:space="preserve">
+    <value>col_Vfo_Bank10</value>
+  </data>
+  <data name="col_Vfo_Bank22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank19.Name" xml:space="preserve">
+    <value>col_Skip_Bank19</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bank19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Ch.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank13.Name" xml:space="preserve">
+    <value>col_Home_Bank13</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Att.HeaderText" xml:space="preserve">
+    <value>ATT</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn86.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn86.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn86</value>
+  </data>
+  <data name="dgv_Normal.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="dgv_Normal.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank10.Name" xml:space="preserve">
+    <value>col_Home_Bank10</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Ch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank7.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank12.Name" xml:space="preserve">
+    <value>col_Vfo_Bank12</value>
+  </data>
+  <data name="col_Vfo_Bank10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dgv_Home.Parent" xml:space="preserve">
+    <value>tab_Home</value>
+  </data>
+  <data name="col_Pmf_Bank21.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="col_Home_Bank8.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Tag.Name" xml:space="preserve">
+    <value>col_Skip_Tag</value>
+  </data>
+  <data name="col_Normal_ShiftFrq.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn187.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="col_Pmf_Bank8.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Att.Name" xml:space="preserve">
+    <value>col_Skip_Att</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Att.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn183.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank12.Name" xml:space="preserve">
+    <value>col_Home_Bank12</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Bank12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pms_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_TxOutput.Name" xml:space="preserve">
+    <value>col_Vfo_TxOutput</value>
+  </data>
+  <data name="col_Skip_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_TxOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank15.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="col_Normal_Bank16.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn194.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_DigAnalog.Name" xml:space="preserve">
+    <value>col_Vfo_DigAnalog</value>
+  </data>
+  <data name="tabc_DataForm.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn87.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn87.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn87</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn426.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="tab_Wx.Text" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="tab_Wx.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="col_Skip_Bank20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_RxFrq.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="col_Vfo_Comment.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="col_Skip_Comment.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="&gt;&gt;tab_Vfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Comment.Name" xml:space="preserve">
+    <value>col_Vfo_Comment</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank24.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="dgv_Skip.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgv_Wx.Name" xml:space="preserve">
+    <value>dgv_Wx</value>
+  </data>
+  <data name="&gt;&gt;dgv_Wx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn411.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tab_Vfo.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="col_Skip_Bank3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_RxFrq.Name" xml:space="preserve">
+    <value>col_Home_RxFrq</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn417.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="&gt;&gt;col_Home_RxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_Normal.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="tab_Normal.Text" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Vibrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Vibrator.Name" xml:space="preserve">
+    <value>col_Normal_Vibrator</value>
+  </data>
+  <data name="col_Vfo_SqlType.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="col_Skip_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="col_Skip_Bank13.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="col_Pmf_Bank12.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="col_Normal_Bank18.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="col_Vfo_Bank10.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="col_Vfo_Vibrator.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="col_Home_Bank6.HeaderText" xml:space="preserve">
+    <value>BANK6</value>
+  </data>
+  <data name="dgv_Vfo.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="col_Home_Bank13.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="col_Pmf_Bank24.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="col_Vfo_Bank4.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="col_Vfo_MemDel.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="col_Pmf_Bank18.HeaderText" xml:space="preserve">
+    <value>BANK18</value>
+  </data>
+  <data name="col_Home_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="col_Home_Bank15.HeaderText" xml:space="preserve">
+    <value>BANK15</value>
+  </data>
+  <data name="col_Skip_Bank5.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn419.HeaderText" xml:space="preserve">
+    <value>BANK8</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bell.Name" xml:space="preserve">
+    <value>col_Skip_Bell</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Bell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_HarfDev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_HarfDev.Name" xml:space="preserve">
+    <value>col_Pmf_HarfDev</value>
+  </data>
+  <data name="col_Normal_Ch.HeaderText" xml:space="preserve">
+    <value>優先チャンネル</value>
+  </data>
+  <data name="col_Normal_Vibrator.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn185.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="col_Home_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="col_Vfo_MemName.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="col_Skip_Vibrator.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn410.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Home.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn186.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Bank9.HeaderText" xml:space="preserve">
+    <value>BANK9</value>
+  </data>
+  <data name="col_Pmf_Bank5.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="col_Skip_ToneFrq.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="dgv_Pms.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tab_Pms.Name" xml:space="preserve">
+    <value>tab_Pms</value>
+  </data>
+  <data name="&gt;&gt;tab_Pms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Att.Name" xml:space="preserve">
+    <value>col_Home_Att</value>
+  </data>
+  <data name="&gt;&gt;col_Home_Att.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn428.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="col_Skip_Bank3.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="col_Pms_Tag.HeaderText" xml:space="preserve">
+    <value>TAG</value>
+  </data>
+  <data name="col_Vfo_Bank19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_ToneFrq.HeaderText" xml:space="preserve">
+    <value>トーン周波数</value>
+  </data>
+  <data name="col_Pmf_Bank19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Step.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_AutoMode.Name" xml:space="preserve">
+    <value>col_Vfo_AutoMode</value>
+  </data>
+  <data name="tab_Vfo.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="col_Skip_Bank11.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="col_Normal_Bank12.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="dgv_Normal.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn88.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn88.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn88</value>
+  </data>
+  <data name="col_Home_Vibrator.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="col_Pmf_Bank1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_MemDel.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn422.HeaderText" xml:space="preserve">
+    <value>BANK11</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_TxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_TxFrq.Name" xml:space="preserve">
+    <value>col_Pmf_TxFrq</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn194.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_MemDel.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="col_Vfo_Bank11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn87.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Att.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Att.Name" xml:space="preserve">
+    <value>col_Vfo_Att</value>
+  </data>
+  <data name="col_Home_Bank21.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="col_Normal_Mode.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn408.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DataForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgv_Pms.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn413.HeaderText" xml:space="preserve">
+    <value>BANK2</value>
+  </data>
+  <data name="col_Skip_Bank5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Step.HeaderText" xml:space="preserve">
+    <value>ステップ</value>
+  </data>
+  <data name="col_Skip_Bank10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn89.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn89.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn89</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_TxOtput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_TxOtput.Name" xml:space="preserve">
+    <value>col_Normal_TxOtput</value>
+  </data>
+  <data name="col_Vfo_Bank12.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="col_Vfo_Bank14.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Comment.Name" xml:space="preserve">
+    <value>col_Skip_Comment</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DigAnalog.Name" xml:space="preserve">
+    <value>col_Home_DigAnalog</value>
+  </data>
+  <data name="&gt;&gt;col_Home_DigAnalog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Mode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Mode.Name" xml:space="preserve">
+    <value>col_Normal_Mode</value>
+  </data>
+  <data name="col_Home_Bank17.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="col_Pmf_Bank20.HeaderText" xml:space="preserve">
+    <value>BANK20</value>
+  </data>
+  <data name="col_Skip_Bank18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Skip.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="col_Home_Bank18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bell.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="col_Vfo_Bank14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank1.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="&gt;&gt;tab_Skip.Name" xml:space="preserve">
+    <value>tab_Skip</value>
+  </data>
+  <data name="&gt;&gt;tab_Skip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_PrTone.HeaderText" xml:space="preserve">
+    <value>PR TONE</value>
+  </data>
+  <data name="col_Normal_Bank17.HeaderText" xml:space="preserve">
+    <value>BANK17</value>
+  </data>
+  <data name="tab_Home.Text" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="tab_Home.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn187.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_AutoMode.Name" xml:space="preserve">
+    <value>col_Skip_AutoMode</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgv_Wx.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dgv_Wx.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="col_Normal_TxFrq.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn422.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn422.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn422</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ToneFrq.Name" xml:space="preserve">
+    <value>col_Vfo_ToneFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ToneFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank1.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="col_Home_MemName.HeaderText" xml:space="preserve">
+    <value>メモリーネーム</value>
+  </data>
+  <data name="col_Home_Bank8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_AutoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_AutoMode.Name" xml:space="preserve">
+    <value>col_Normal_AutoMode</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Ams.Name" xml:space="preserve">
+    <value>col_Skip_Ams</value>
+  </data>
+  <data name="col_Pmf_HarfDev.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn416.HeaderText" xml:space="preserve">
+    <value>BANK5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn423.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn423.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn423</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank8.Name" xml:space="preserve">
+    <value>col_Vfo_Bank8</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ShiftFrq.Name" xml:space="preserve">
+    <value>col_Home_ShiftFrq</value>
+  </data>
+  <data name="&gt;&gt;col_Home_ShiftFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DcsDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_DcsDim.Name" xml:space="preserve">
+    <value>col_Skip_DcsDim</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn420.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn420.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn420</value>
+  </data>
+  <data name="col_Home_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="col_Pms_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="col_Normal_Bank19.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="col_Home_Vibrator.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tab_Vfo.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="col_Skip_Bank14.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="col_Vfo_DigAnalog.HeaderText" xml:space="preserve">
+    <value>DIG/ANALOG</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn421.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn421.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn421</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_TxFrq.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_TxFrq.Name" xml:space="preserve">
+    <value>col_Vfo_TxFrq</value>
+  </data>
+  <data name="col_Normal_AutoStep.HeaderText" xml:space="preserve">
+    <value>AUTO STEP</value>
+  </data>
+  <data name="col_Vfo_Comment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn426.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn426.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn426</value>
+  </data>
+  <data name="col_Normal_Bank22.HeaderText" xml:space="preserve">
+    <value>BANK22</value>
+  </data>
+  <data name="col_Home_HarfDev.HeaderText" xml:space="preserve">
+    <value>Half DEV</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank9.Name" xml:space="preserve">
+    <value>col_Vfo_Bank9</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn418.HeaderText" xml:space="preserve">
+    <value>BANK7</value>
+  </data>
+  <data name="dgv_Wx.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn427.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn427.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn427</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank4.Name" xml:space="preserve">
+    <value>col_Vfo_Bank4</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_DcsCode.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="dgv_Skip.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="dgv_Vfo.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="&gt;&gt;dgv_Vfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="col_Home_Comment.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn424.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn424.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn424</value>
+  </data>
+  <data name="col_Home_Bank10.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn195.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_SqlType.HeaderText" xml:space="preserve">
+    <value>スケルチタイプ</value>
+  </data>
+  <data name="&gt;&gt;col_Home_MemDel.Name" xml:space="preserve">
+    <value>col_Home_MemDel</value>
+  </data>
+  <data name="&gt;&gt;col_Home_MemDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn90.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dgv_Vfo.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="dgv_Vfo.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="col_Vfo_Bank16.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="col_Normal_RxFrq.HeaderText" xml:space="preserve">
+    <value>受信周波数</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ClockShift.Name" xml:space="preserve">
+    <value>col_Skip_ClockShift</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_ClockShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn425.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn425.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn425</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank6.Name" xml:space="preserve">
+    <value>col_Vfo_Bank6</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Mode.HeaderText" xml:space="preserve">
+    <value>MODE</value>
+  </data>
+  <data name="col_Skip_DcsCode.HeaderText" xml:space="preserve">
+    <value>DCSコード</value>
+  </data>
+  <data name="&gt;&gt;tab_Home.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="col_Pmf_Bank20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank5.Name" xml:space="preserve">
+    <value>col_Vfo_Bank5</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Normal_Bank13.HeaderText" xml:space="preserve">
+    <value>BANK13</value>
+  </data>
+  <data name="tab_Skip.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn428.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn428.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn428</value>
+  </data>
+  <data name="col_Pmf_Bank8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank7.Name" xml:space="preserve">
+    <value>col_Vfo_Bank7</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DcsCode.Name" xml:space="preserve">
+    <value>col_Pmf_DcsCode</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_DcsCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Ch.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank21.HeaderText" xml:space="preserve">
+    <value>BANK21</value>
+  </data>
+  <data name="col_Home_Bank19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn429.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewCheckBoxColumn429.Name" xml:space="preserve">
+    <value>dataGridViewCheckBoxColumn429</value>
+  </data>
+  <data name="&gt;&gt;dgv_Vfo.Parent" xml:space="preserve">
+    <value>tab_Vfo</value>
+  </data>
+  <data name="col_Vfo_Bank15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank2.Name" xml:space="preserve">
+    <value>col_Vfo_Bank2</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_ShiftFrq.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="col_Pmf_Comment.HeaderText" xml:space="preserve">
+    <value>コメント</value>
+  </data>
+  <data name="col_Vfo_Bell.HeaderText" xml:space="preserve">
+    <value>BELL</value>
+  </data>
+  <data name="col_Normal_Bank4.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn412.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn408.HeaderText" xml:space="preserve">
+    <value>メモリー消去情報</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank1.Name" xml:space="preserve">
+    <value>col_Vfo_Bank1</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn189.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Skip_Bank1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewComboBoxColumn188.HeaderText" xml:space="preserve">
+    <value>DCS位相</value>
+  </data>
+  <data name="col_Vfo_TxFrq.HeaderText" xml:space="preserve">
+    <value>送信周波数</value>
+  </data>
+  <data name="col_Home_Bank11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn427.HeaderText" xml:space="preserve">
+    <value>BANK16</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_SqlType.Name" xml:space="preserve">
+    <value>col_Vfo_SqlType</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_SqlType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank10.HeaderText" xml:space="preserve">
+    <value>BANK10</value>
+  </data>
+  <data name="col_Home_Bank1.HeaderText" xml:space="preserve">
+    <value>BANK1</value>
+  </data>
+  <data name="col_Home_Comment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="col_Vfo_TxOutput.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank3.Name" xml:space="preserve">
+    <value>col_Vfo_Bank3</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bank3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Skip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_AutoStep.Name" xml:space="preserve">
+    <value>col_Normal_AutoStep</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_AutoStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Skip.HeaderText" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABAQQs=</value>
+  </data>
+  <data name="col_Home_ShiftFrq.HeaderText" xml:space="preserve">
+    <value>シフト周波数</value>
+  </data>
+  <data name="col_Pmf_Comment.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_MemDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_MemDel.Name" xml:space="preserve">
+    <value>col_Pmf_MemDel</value>
+  </data>
+  <data name="tab_Pms.Text" xml:space="preserve">
+    <value>PMS</value>
+  </data>
+  <data name="tab_Pms.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABMDAADBAQAACw==</value>
+  </data>
+  <data name="col_Skip_Bank9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Home_Bank5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank23.Name" xml:space="preserve">
+    <value>col_Normal_Bank23</value>
+  </data>
+  <data name="&gt;&gt;col_Home_MemName.Name" xml:space="preserve">
+    <value>col_Home_MemName</value>
+  </data>
+  <data name="&gt;&gt;col_Home_MemName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tab_Skip.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="col_Pmf_Vibrator.HeaderText" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="col_Home_Bank12.HeaderText" xml:space="preserve">
+    <value>BANK12</value>
+  </data>
+  <data name="col_Vfo_MemName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DscDim.Name" xml:space="preserve">
+    <value>col_Normal_DscDim</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_DscDim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Vfo_Bank3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank22.Name" xml:space="preserve">
+    <value>col_Normal_Bank22</value>
+  </data>
+  <data name="col_Vfo_Bank3.HeaderText" xml:space="preserve">
+    <value>BANK3</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Ams.Name" xml:space="preserve">
+    <value>col_Normal_Ams</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Ams.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Vibrator.Name" xml:space="preserve">
+    <value>col_Skip_Vibrator</value>
+  </data>
+  <data name="&gt;&gt;col_Skip_Vibrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank14.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Comment.Name" xml:space="preserve">
+    <value>col_Pmf_Comment</value>
+  </data>
+  <data name="&gt;&gt;col_Pmf_Comment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Skip_Bank24.HeaderText" xml:space="preserve">
+    <value>BANK24</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank2.Name" xml:space="preserve">
+    <value>col_Normal_Bank2</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank21.Name" xml:space="preserve">
+    <value>col_Normal_Bank21</value>
+  </data>
+  <data name="col_Home_Bank14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_TxOutput.HeaderText" xml:space="preserve">
+    <value>送信出力</value>
+  </data>
+  <data name="col_Vfo_Ams.HeaderText" xml:space="preserve">
+    <value>AMS</value>
+  </data>
+  <data name="&gt;&gt;dgv_Vfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgv_Vfo.Name" xml:space="preserve">
+    <value>dgv_Vfo</value>
+  </data>
+  <data name="dgv_Normal.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="col_Normal_AutoMode.HeaderText" xml:space="preserve">
+    <value>AUTO MODE</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ShiftDir.Name" xml:space="preserve">
+    <value>col_Vfo_ShiftDir</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_ShiftDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Pmf_Bank19.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank20.Name" xml:space="preserve">
+    <value>col_Normal_Bank20</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank1.Name" xml:space="preserve">
+    <value>col_Normal_Bank1</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_Home.Parent" xml:space="preserve">
+    <value>tabc_DataForm</value>
+  </data>
+  <data name="col_Vfo_Bank19.HeaderText" xml:space="preserve">
+    <value>BANK19</value>
+  </data>
+  <data name="dgv_Skip.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dgv_Skip.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAA0DAAC7AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank4.Name" xml:space="preserve">
+    <value>col_Normal_Bank4</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bell.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col_Vfo_Bell.Name" xml:space="preserve">
+    <value>col_Vfo_Bell</value>
+  </data>
+  <data name="col_Wx_AutoStep.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank3.Name" xml:space="preserve">
+    <value>col_Normal_Bank3</value>
+  </data>
+  <data name="&gt;&gt;col_Normal_Bank3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="col_Home_Bank4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="col_Pmf_Bank4.HeaderText" xml:space="preserve">
+    <value>BANK4</value>
+  </data>
+  <data name="dataGridViewCheckBoxColumn425.HeaderText" xml:space="preserve">
+    <value>BANK14</value>
+  </data>
+  <data name="dgv_Normal.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+</root>
